@@ -1588,10 +1588,10 @@
     redux-thunk "^2.4.2"
     reselect "^4.1.8"
 
-"@retikolo/drag-drop-content-types@^1.5.2":
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/@retikolo/drag-drop-content-types/-/drag-drop-content-types-1.6.0.tgz#1eb3eefac352172dec1bd6e8e72ff25811536dae"
-  integrity sha512-Zowuq5g1LLxbpmR3S8EWsdYkwRqEvyQFSJt3Nd5kRzXpw55QU9Maw8QgEojM3ijhfc3meQaoUCkKE1kY+Y+oEA==
+"@retikolo/drag-drop-content-types@^1.7.1":
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/@retikolo/drag-drop-content-types/-/drag-drop-content-types-1.7.1.tgz#dbfdcc9d09eb6f974ca2806a35a33deb7b680aee"
+  integrity sha512-fgc9+FMXP86GQKlzWTvDzshle+iAau0YRdM2hQBzkdW0N3Nsx/MBiyVIpNOwK+0Zy21AY5ZIhKNvhL0rfiNzUg==
   dependencies:
     "@strapi/helper-plugin" "^4.25.0"
     array-move "^4.0.0"

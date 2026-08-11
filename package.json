@@ -11,7 +11,7 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@retikolo/drag-drop-content-types": "^1.5.2",
+    "@retikolo/drag-drop-content-types": "^1.7.1",
     "@strapi/plugin-i18n": "4.17.1",
     "@strapi/plugin-seo": "^1.9.8",
     "@strapi/plugin-users-permissions": "4.17.1",
