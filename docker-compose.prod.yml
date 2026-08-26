@@ -1,0 +1,32 @@
+# Build/push target for CI and the runtime definition for the deployed backend.
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: registry.azeno.dev/equilibrum-backend:${APP_VERSION:-latest}
+    container_name: equilibrum-backend
+    restart: unless-stopped
+    environment:
+      NODE_ENV: production
+      HOST: 0.0.0.0
+      PORT: 1337
+      APP_KEYS: ${APP_KEYS}
+      API_TOKEN_SALT: ${API_TOKEN_SALT}
+      ADMIN_JWT_SECRET: ${ADMIN_JWT_SECRET}
+      TRANSFER_TOKEN_SALT: ${TRANSFER_TOKEN_SALT}
+      JWT_SECRET: ${JWT_SECRET}
+      DATABASE_CLIENT: ${DATABASE_CLIENT:-postgres}
+      DATABASE_HOST: ${DATABASE_HOST}
+      DATABASE_PORT: ${DATABASE_PORT:-5432}
+      DATABASE_NAME: ${DATABASE_NAME:-strapi}
+      DATABASE_USERNAME: ${DATABASE_USERNAME:-strapi}
+      DATABASE_PASSWORD: ${DATABASE_PASSWORD}
+      DATABASE_SSL: ${DATABASE_SSL:-false}
+    volumes:
+      - backend-uploads:/opt/app/public/uploads
+    ports:
+      - "1337:1337"
+
+volumes:
+  backend-uploads:

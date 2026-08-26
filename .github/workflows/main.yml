@@ -1,0 +1,159 @@
+name: Backend Main Branch CI
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'src/**'
+      - 'config/**'
+      - 'public/**'
+      - 'package.json'
+      - 'yarn.lock'
+      - 'scripts/bump_version.sh'
+      - 'Dockerfile'
+      - 'docker-compose.prod.yml'
+      - '.github/workflows/main.yml'
+  workflow_dispatch:
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      actions: write
+    outputs:
+      version: ${{ steps.bump_version.outputs.version }}
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Auto-increment Version
+        id: bump_version
+        run: |
+          chmod +x scripts/bump_version.sh
+          NEW_VERSION=$(scripts/bump_version.sh VERSION)
+
+          if [ $? -ne 0 ]; then
+            echo "Failed to bump version"
+            exit 1
+          fi
+
+          echo "New version: $NEW_VERSION"
+
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+
+          git add VERSION
+          git commit -m "Bump backend version to $NEW_VERSION [skip ci]"
+
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main && git push && break
+            echo "Push attempt $i failed, retrying in ${i}s..."
+            sleep $i
+          done
+
+          echo "APP_VERSION=$NEW_VERSION" >> $GITHUB_ENV
+          echo "version=$NEW_VERSION" >> $GITHUB_OUTPUT
+
+      - name: Update Workflow Run Name
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh api \
+            --method PATCH \
+            -H "Accept: application/vnd.github+json" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            "/repos/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
+            -f display_title="Backend Main Branch CI - v${APP_VERSION}"
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'yarn'
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Build Strapi admin
+        run: yarn build
+
+      - name: Login to Docker Private Registry
+        uses: docker/login-action@v3
+        with:
+          registry: registry.azeno.dev
+          username: ${{ secrets.DOCKER_USER }}
+          password: ${{ secrets.DOCKER_PASS }}
+
+      - name: Build with docker-compose
+        run: docker compose -f docker-compose.prod.yml build backend
+
+      - name: Push to Registry
+        run: docker compose -f docker-compose.prod.yml push backend
+
+      - name: Send Slack Notification
+        if: always()
+        uses: slackapi/slack-github-action@v1.24.0
+        with:
+          payload: |
+            {
+              "text": "Backend Main Branch Build Result: ${{ job.status }}\nBranch: ${{ github.ref_name }}\nVersion: ${{ env.APP_VERSION }}\nImage pushed: registry.azeno.dev/equilibrum-backend:${{ env.APP_VERSION }}"
+            }
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK }}
+
+  create-production-pr:
+    runs-on: ubuntu-latest
+    needs: build-and-push
+    if: success()
+    permissions:
+      contents: read
+      pull-requests: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Create PR to production
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          VERSION: ${{ needs.build-and-push.outputs.version }}
+        run: |
+          if ! git ls-remote --exit-code --heads origin production >/dev/null 2>&1; then
+            echo "No production branch found — nothing to open a PR against."
+            exit 0
+          fi
+
+          EXISTING_PR=$(gh pr list --base production --head main --state open --json number --jq '.[0].number')
+
+          if [ -n "$EXISTING_PR" ]; then
+            echo "PR already exists (#$EXISTING_PR) from main to production"
+            exit 0
+          fi
+
+          gh pr create \
+            --base production \
+            --head main \
+            --title "[Auto] Deploy Backend v${VERSION} to production" \
+            --body "🤖 Automated deployment PR
+
+          ## Changes
+          - Version: ${VERSION}
+          - Source: main
+          - Target: production
+
+          ## Build Status
+          ✅ Strapi admin build passed
+          ✅ Docker build passed
+          ✅ Version bumped automatically
+          ✅ Image pushed to registry
+
+          Merging builds and pushes \`registry.azeno.dev/equilibrum-backend:${VERSION}\`, ready to deploy." \
+            || echo "Failed to create PR for production"

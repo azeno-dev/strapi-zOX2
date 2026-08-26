@@ -1,0 +1,69 @@
+name: Backend Production Deployment
+
+on:
+  push:
+    branches:
+      - production
+    paths:
+      - 'src/**'
+      - 'config/**'
+      - 'public/**'
+      - 'package.json'
+      - 'yarn.lock'
+      - 'Dockerfile'
+      - 'docker-compose.prod.yml'
+      - '.github/workflows/production.yml'
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      actions: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Read Version
+        run: |
+          APP_VERSION=$(cat VERSION | tr -d '[:space:]')
+          echo "APP_VERSION=$APP_VERSION" >> $GITHUB_ENV
+          echo "Deploying backend version: $APP_VERSION"
+
+      - name: Update Workflow Run Name
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh api \
+            --method PATCH \
+            -H "Accept: application/vnd.github+json" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            "/repos/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
+            -f display_title="Backend Production Deployment - v${APP_VERSION}"
+
+      - name: Login to Docker Private Registry
+        uses: docker/login-action@v3
+        with:
+          registry: registry.azeno.dev
+          username: ${{ secrets.DOCKER_USER }}
+          password: ${{ secrets.DOCKER_PASS }}
+
+      - name: Build with docker-compose
+        run: docker compose -f docker-compose.prod.yml build backend
+
+      - name: Push to Registry
+        run: docker compose -f docker-compose.prod.yml push backend
+
+      - name: Send Slack Notification
+        if: always()
+        uses: slackapi/slack-github-action@v1.24.0
+        with:
+          payload: |
+            {
+              "text": "Backend Production Deployment Result: ${{ job.status }}\nBranch: ${{ github.ref_name }}\nVersion: ${{ env.APP_VERSION }}\nImage pushed: registry.azeno.dev/equilibrum-backend:${{ env.APP_VERSION }}"
+            }
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK }}

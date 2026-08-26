@@ -1,0 +1,60 @@
+version: '3.8'
+
+services:
+  strapi:
+    container_name: equilibrum-strapi
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    image: equilibrum-strapi:latest
+    restart: unless-stopped
+    environment:
+      HOST: 0.0.0.0
+      PORT: 1337
+      APP_KEYS: 4nNsn+vZ86SzZhCLP7HvoA==,udwncbCxT9EN5RLuH/9WLQ==,XYTLlGxYaEyYlhlV33G2gw==,ETxt54aFFfvt0DJzrq0SaQ==
+      API_TOKEN_SALT: qmpHw4DEQPNtY6cZSpefeg==
+      ADMIN_JWT_SECRET: TJNKlctS0gpTMubvEDg23g==
+      TRANSFER_TOKEN_SALT: bDt1GGFJVK5xM/f31OGnpw==
+      JWT_SECRET: EowcByE4uuYWD6cPTfpdbw==
+      DATABASE_CLIENT: postgres
+      DATABASE_HOST: strapiDB
+      DATABASE_PORT: 5432
+      DATABASE_NAME: strapi
+      DATABASE_USERNAME: strapi
+      DATABASE_PASSWORD: strapi_password
+      DATABASE_SSL: 'false'
+    volumes:
+      - ./config:/opt/app/config
+      - ./src:/opt/app/src
+      - ./package.json:/opt/app/package.json
+      - ./yarn.lock:/opt/app/yarn.lock
+      - ./public/uploads:/opt/app/public/uploads
+      - /opt/app/node_modules
+    ports:
+      - "1337:1337"
+    networks:
+      - equilibrum-network
+    depends_on:
+      - strapiDB
+
+  strapiDB:
+    container_name: equilibrum-strapi-db
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: strapi
+      POSTGRES_PASSWORD: strapi_password
+      POSTGRES_DB: strapi
+    volumes:
+      - strapi-data:/var/lib/postgresql/data
+    ports:
+      - "5433:5432"
+    networks:
+      - equilibrum-network
+
+volumes:
+  strapi-data:
+
+networks:
+  equilibrum-network:
+    driver: bridge

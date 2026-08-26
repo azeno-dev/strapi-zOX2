@@ -1,0 +1,3204 @@
+{
+  "ro": {
+    "home-page": {
+      "data": {
+        "id": 2,
+        "attributes": {
+          "createdAt": "2024-07-19T10:45:43.872Z",
+          "updatedAt": "2024-07-22T14:18:39.358Z",
+          "publishedAt": "2024-07-19T10:46:20.416Z",
+          "locale": "ro",
+          "hero": {
+            "id": 3,
+            "title": "Fundația Equilibrium",
+            "lead": "Găsirea echilibrului, inspirarea schimbării",
+            "images": {
+              "data": [
+                {
+                  "id": 3,
+                  "attributes": {
+                    "name": "hero3.jpg",
+                    "alternativeText": null,
+                    "caption": null,
+                    "width": 5000,
+                    "height": 3333,
+                    "formats": {
+                      "large": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720001486/large_hero3_72ffbc7098.jpg",
+                        "hash": "large_hero3_72ffbc7098",
+                        "mime": "image/jpeg",
+                        "name": "large_hero3.jpg",
+                        "path": null,
+                        "size": 93.76,
+                        "width": 1000,
+                        "height": 666,
+                        "provider_metadata": {
+                          "public_id": "large_hero3_72ffbc7098",
+                          "resource_type": "image"
+                        }
+                      },
+                      "small": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720001485/small_hero3_72ffbc7098.jpg",
+                        "hash": "small_hero3_72ffbc7098",
+                        "mime": "image/jpeg",
+                        "name": "small_hero3.jpg",
+                        "path": null,
+                        "size": 26.95,
+                        "width": 500,
+                        "height": 333,
+                        "provider_metadata": {
+                          "public_id": "small_hero3_72ffbc7098",
+                          "resource_type": "image"
+                        }
+                      },
+                      "medium": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720001486/medium_hero3_72ffbc7098.jpg",
+                        "hash": "medium_hero3_72ffbc7098",
+                        "mime": "image/jpeg",
+                        "name": "medium_hero3.jpg",
+                        "path": null,
+                        "size": 56.66,
+                        "width": 750,
+                        "height": 500,
+                        "provider_metadata": {
+                          "public_id": "medium_hero3_72ffbc7098",
+                          "resource_type": "image"
+                        }
+                      },
+                      "thumbnail": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720001485/thumbnail_hero3_72ffbc7098.jpg",
+                        "hash": "thumbnail_hero3_72ffbc7098",
+                        "mime": "image/jpeg",
+                        "name": "thumbnail_hero3.jpg",
+                        "path": null,
+                        "size": 7.39,
+                        "width": 234,
+                        "height": 156,
+                        "provider_metadata": {
+                          "public_id": "thumbnail_hero3_72ffbc7098",
+                          "resource_type": "image"
+                        }
+                      }
+                    },
+                    "hash": "hero3_72ffbc7098",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "size": 1444.95,
+                    "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720001486/hero3_72ffbc7098.jpg",
+                    "previewUrl": null,
+                    "provider": "cloudinary",
+                    "provider_metadata": {
+                      "public_id": "hero3_72ffbc7098",
+                      "resource_type": "image"
+                    },
+                    "createdAt": "2024-07-03T13:11:26.211Z",
+                    "updatedAt": "2024-07-04T15:26:30.767Z"
+                  }
+                },
+                {
+                  "id": 2,
+                  "attributes": {
+                    "name": "hero2.jpg",
+                    "alternativeText": null,
+                    "caption": null,
+                    "width": 7289,
+                    "height": 4862,
+                    "formats": {
+                      "large": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1719921543/large_hero2_1fba1a2a92.jpg",
+                        "hash": "large_hero2_1fba1a2a92",
+                        "mime": "image/jpeg",
+                        "name": "large_hero2.jpg",
+                        "path": null,
+                        "size": 80.58,
+                        "width": 1000,
+                        "height": 667,
+                        "provider_metadata": {
+                          "public_id": "large_hero2_1fba1a2a92",
+                          "resource_type": "image"
+                        }
+                      },
+                      "small": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1719921543/small_hero2_1fba1a2a92.jpg",
+                        "hash": "small_hero2_1fba1a2a92",
+                        "mime": "image/jpeg",
+                        "name": "small_hero2.jpg",
+                        "path": null,
+                        "size": 24.02,
+                        "width": 500,
+                        "height": 333,
+                        "provider_metadata": {
+                          "public_id": "small_hero2_1fba1a2a92",
+                          "resource_type": "image"
+                        }
+                      },
+                      "medium": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1719921543/medium_hero2_1fba1a2a92.jpg",
+                        "hash": "medium_hero2_1fba1a2a92",
+                        "mime": "image/jpeg",
+                        "name": "medium_hero2.jpg",
+                        "path": null,
+                        "size": 47.83,
+                        "width": 750,
+                        "height": 500,
+                        "provider_metadata": {
+                          "public_id": "medium_hero2_1fba1a2a92",
+                          "resource_type": "image"
+                        }
+                      },
+                      "thumbnail": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1719921543/thumbnail_hero2_1fba1a2a92.jpg",
+                        "hash": "thumbnail_hero2_1fba1a2a92",
+                        "mime": "image/jpeg",
+                        "name": "thumbnail_hero2.jpg",
+                        "path": null,
+                        "size": 6.85,
+                        "width": 234,
+                        "height": 156,
+                        "provider_metadata": {
+                          "public_id": "thumbnail_hero2_1fba1a2a92",
+                          "resource_type": "image"
+                        }
+                      }
+                    },
+                    "hash": "hero2_1fba1a2a92",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "size": 2300.69,
+                    "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1719921544/hero2_1fba1a2a92.jpg",
+                    "previewUrl": null,
+                    "provider": "cloudinary",
+                    "provider_metadata": {
+                      "public_id": "hero2_1fba1a2a92",
+                      "resource_type": "image"
+                    },
+                    "createdAt": "2024-07-02T14:59:03.321Z",
+                    "updatedAt": "2024-07-02T14:59:03.321Z"
+                  }
+                },
+                {
+                  "id": 1,
+                  "attributes": {
+                    "name": "hero1.jpg",
+                    "alternativeText": null,
+                    "caption": null,
+                    "width": 5907,
+                    "height": 3696,
+                    "formats": {
+                      "large": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1719921543/large_hero1_03056aeda1.jpg",
+                        "hash": "large_hero1_03056aeda1",
+                        "mime": "image/jpeg",
+                        "name": "large_hero1.jpg",
+                        "path": null,
+                        "size": 78.26,
+                        "width": 1000,
+                        "height": 626,
+                        "provider_metadata": {
+                          "public_id": "large_hero1_03056aeda1",
+                          "resource_type": "image"
+                        }
+                      },
+                      "small": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1719921543/small_hero1_03056aeda1.jpg",
+                        "hash": "small_hero1_03056aeda1",
+                        "mime": "image/jpeg",
+                        "name": "small_hero1.jpg",
+                        "path": null,
+                        "size": 24.44,
+                        "width": 500,
+                        "height": 313,
+                        "provider_metadata": {
+                          "public_id": "small_hero1_03056aeda1",
+                          "resource_type": "image"
+                        }
+                      },
+                      "medium": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1719921543/medium_hero1_03056aeda1.jpg",
+                        "hash": "medium_hero1_03056aeda1",
+                        "mime": "image/jpeg",
+                        "name": "medium_hero1.jpg",
+                        "path": null,
+                        "size": 47.86,
+                        "width": 750,
+                        "height": 470,
+                        "provider_metadata": {
+                          "public_id": "medium_hero1_03056aeda1",
+                          "resource_type": "image"
+                        }
+                      },
+                      "thumbnail": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1719921543/thumbnail_hero1_03056aeda1.jpg",
+                        "hash": "thumbnail_hero1_03056aeda1",
+                        "mime": "image/jpeg",
+                        "name": "thumbnail_hero1.jpg",
+                        "path": null,
+                        "size": 7.99,
+                        "width": 245,
+                        "height": 153,
+                        "provider_metadata": {
+                          "public_id": "thumbnail_hero1_03056aeda1",
+                          "resource_type": "image"
+                        }
+                      }
+                    },
+                    "hash": "hero1_03056aeda1",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "size": 1523.2,
+                    "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1719921543/hero1_03056aeda1.jpg",
+                    "previewUrl": null,
+                    "provider": "cloudinary",
+                    "provider_metadata": {
+                      "public_id": "hero1_03056aeda1",
+                      "resource_type": "image"
+                    },
+                    "createdAt": "2024-07-02T14:59:02.512Z",
+                    "updatedAt": "2024-07-02T14:59:02.512Z"
+                  }
+                }
+              ]
+            }
+          },
+          "aboutUs": {
+            "id": 2,
+            "smallTitle": "Despre noi",
+            "title": "Găsirea echilibrului, inspirarea schimbării",
+            "description": "Fundația Equilibrium este un far de speranță și sprijin pentru cei care se luptă cu dependența în România. Fondată de Andrei Argentis, misiunea noastră este de a ghida persoanele și familiile prin călătoria dificilă a recuperării, încurajând reziliența și recuperând vieți din ghearele dependenței.\n\nNe imaginăm o lume în care dependența nu este o condamnare pe viață, ci o provocare de depășit. La Fundația Equilibrium, credem într-o abordare holistică a tratamentului, abordând aspectele fizice, emoționale și sociale ale dependenței pentru a obține o recuperare de lungă durată și o viață echilibrată.",
+            "image": {
+              "data": {
+                "id": 4,
+                "attributes": {
+                  "name": "about-us.jpg",
+                  "alternativeText": null,
+                  "caption": null,
+                  "width": 1792,
+                  "height": 2688,
+                  "formats": {
+                    "large": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720007926/large_about_us_3fdf3ad61f.jpg",
+                      "hash": "large_about_us_3fdf3ad61f",
+                      "mime": "image/jpeg",
+                      "name": "large_about-us.jpg",
+                      "path": null,
+                      "size": 158.41,
+                      "width": 667,
+                      "height": 1000,
+                      "provider_metadata": {
+                        "public_id": "large_about_us_3fdf3ad61f",
+                        "resource_type": "image"
+                      }
+                    },
+                    "small": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720007926/small_about_us_3fdf3ad61f.jpg",
+                      "hash": "small_about_us_3fdf3ad61f",
+                      "mime": "image/jpeg",
+                      "name": "small_about-us.jpg",
+                      "path": null,
+                      "size": 48.53,
+                      "width": 333,
+                      "height": 500,
+                      "provider_metadata": {
+                        "public_id": "small_about_us_3fdf3ad61f",
+                        "resource_type": "image"
+                      }
+                    },
+                    "medium": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720007926/medium_about_us_3fdf3ad61f.jpg",
+                      "hash": "medium_about_us_3fdf3ad61f",
+                      "mime": "image/jpeg",
+                      "name": "medium_about-us.jpg",
+                      "path": null,
+                      "size": 97.14,
+                      "width": 500,
+                      "height": 750,
+                      "provider_metadata": {
+                        "public_id": "medium_about_us_3fdf3ad61f",
+                        "resource_type": "image"
+                      }
+                    },
+                    "thumbnail": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720007925/thumbnail_about_us_3fdf3ad61f.jpg",
+                      "hash": "thumbnail_about_us_3fdf3ad61f",
+                      "mime": "image/jpeg",
+                      "name": "thumbnail_about-us.jpg",
+                      "path": null,
+                      "size": 6.2,
+                      "width": 104,
+                      "height": 156,
+                      "provider_metadata": {
+                        "public_id": "thumbnail_about_us_3fdf3ad61f",
+                        "resource_type": "image"
+                      }
+                    }
+                  },
+                  "hash": "about_us_3fdf3ad61f",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "size": 737.32,
+                  "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720007926/about_us_3fdf3ad61f.jpg",
+                  "previewUrl": null,
+                  "provider": "cloudinary",
+                  "provider_metadata": {
+                    "public_id": "about_us_3fdf3ad61f",
+                    "resource_type": "image"
+                  },
+                  "createdAt": "2024-07-03T14:58:46.509Z",
+                  "updatedAt": "2024-07-03T14:58:46.509Z"
+                }
+              }
+            }
+          },
+          "banner": {
+            "id": 2,
+            "title": "Calea ta spre recuperare",
+            "description": "Inspirând schimbarea: Alăturați-vă luptei împotriva dependenței",
+            "image": {
+              "data": {
+                "id": 5,
+                "attributes": {
+                  "name": "banner1.jpg",
+                  "alternativeText": null,
+                  "caption": null,
+                  "width": 1280,
+                  "height": 853,
+                  "formats": {
+                    "large": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720008360/large_banner1_2156f292c4.jpg",
+                      "hash": "large_banner1_2156f292c4",
+                      "mime": "image/jpeg",
+                      "name": "large_banner1.jpg",
+                      "path": null,
+                      "size": 76,
+                      "width": 1000,
+                      "height": 666,
+                      "provider_metadata": {
+                        "public_id": "large_banner1_2156f292c4",
+                        "resource_type": "image"
+                      }
+                    },
+                    "small": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720008360/small_banner1_2156f292c4.jpg",
+                      "hash": "small_banner1_2156f292c4",
+                      "mime": "image/jpeg",
+                      "name": "small_banner1.jpg",
+                      "path": null,
+                      "size": 23.25,
+                      "width": 500,
+                      "height": 333,
+                      "provider_metadata": {
+                        "public_id": "small_banner1_2156f292c4",
+                        "resource_type": "image"
+                      }
+                    },
+                    "medium": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720008360/medium_banner1_2156f292c4.jpg",
+                      "hash": "medium_banner1_2156f292c4",
+                      "mime": "image/jpeg",
+                      "name": "medium_banner1.jpg",
+                      "path": null,
+                      "size": 46.78,
+                      "width": 750,
+                      "height": 500,
+                      "provider_metadata": {
+                        "public_id": "medium_banner1_2156f292c4",
+                        "resource_type": "image"
+                      }
+                    },
+                    "thumbnail": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720008360/thumbnail_banner1_2156f292c4.jpg",
+                      "hash": "thumbnail_banner1_2156f292c4",
+                      "mime": "image/jpeg",
+                      "name": "thumbnail_banner1.jpg",
+                      "path": null,
+                      "size": 6.2,
+                      "width": 234,
+                      "height": 156,
+                      "provider_metadata": {
+                        "public_id": "thumbnail_banner1_2156f292c4",
+                        "resource_type": "image"
+                      }
+                    }
+                  },
+                  "hash": "banner1_2156f292c4",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "size": 113.41,
+                  "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720008360/banner1_2156f292c4.jpg",
+                  "previewUrl": null,
+                  "provider": "cloudinary",
+                  "provider_metadata": {
+                    "public_id": "banner1_2156f292c4",
+                    "resource_type": "image"
+                  },
+                  "createdAt": "2024-07-03T15:06:00.692Z",
+                  "updatedAt": "2024-07-03T15:06:00.692Z"
+                }
+              }
+            }
+          },
+          "takeAction": {
+            "id": 2,
+            "title": "Luați măsuri",
+            "description": "Alăturați-vă Fundației Equilibrium în misiunea noastră de a-i sprijini și inspira pe cei care se luptă cu dependența. Împreună, putem avea un impact de durată.",
+            "items": [
+              {
+                "id": 4,
+                "title": "Evaluați",
+                "description": "Evaluați-vă nevoile unice."
+              },
+              {
+                "id": 5,
+                "title": "Vindecare",
+                "description": "Participați la terapii holistice."
+              },
+              {
+                "id": 6,
+                "title": "Sprijin",
+                "description": "Construiți un sistem de sprijin puternic."
+              }
+            ],
+            "images": {
+              "data": [
+                {
+                  "id": 6,
+                  "attributes": {
+                    "name": "take-action3.jpg",
+                    "alternativeText": null,
+                    "caption": null,
+                    "width": 5000,
+                    "height": 3333,
+                    "formats": {
+                      "large": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720009915/large_take_action3_f7275048e8.jpg",
+                        "hash": "large_take_action3_f7275048e8",
+                        "mime": "image/jpeg",
+                        "name": "large_take-action3.jpg",
+                        "path": null,
+                        "size": 76.29,
+                        "width": 1000,
+                        "height": 666,
+                        "provider_metadata": {
+                          "public_id": "large_take_action3_f7275048e8",
+                          "resource_type": "image"
+                        }
+                      },
+                      "small": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720009915/small_take_action3_f7275048e8.jpg",
+                        "hash": "small_take_action3_f7275048e8",
+                        "mime": "image/jpeg",
+                        "name": "small_take-action3.jpg",
+                        "path": null,
+                        "size": 27.37,
+                        "width": 500,
+                        "height": 333,
+                        "provider_metadata": {
+                          "public_id": "small_take_action3_f7275048e8",
+                          "resource_type": "image"
+                        }
+                      },
+                      "medium": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720009915/medium_take_action3_f7275048e8.jpg",
+                        "hash": "medium_take_action3_f7275048e8",
+                        "mime": "image/jpeg",
+                        "name": "medium_take-action3.jpg",
+                        "path": null,
+                        "size": 50,
+                        "width": 750,
+                        "height": 500,
+                        "provider_metadata": {
+                          "public_id": "medium_take_action3_f7275048e8",
+                          "resource_type": "image"
+                        }
+                      },
+                      "thumbnail": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720009915/thumbnail_take_action3_f7275048e8.jpg",
+                        "hash": "thumbnail_take_action3_f7275048e8",
+                        "mime": "image/jpeg",
+                        "name": "thumbnail_take-action3.jpg",
+                        "path": null,
+                        "size": 9.21,
+                        "width": 234,
+                        "height": 156,
+                        "provider_metadata": {
+                          "public_id": "thumbnail_take_action3_f7275048e8",
+                          "resource_type": "image"
+                        }
+                      }
+                    },
+                    "hash": "take_action3_f7275048e8",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "size": 1018.79,
+                    "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720009916/take_action3_f7275048e8.jpg",
+                    "previewUrl": null,
+                    "provider": "cloudinary",
+                    "provider_metadata": {
+                      "public_id": "take_action3_f7275048e8",
+                      "resource_type": "image"
+                    },
+                    "createdAt": "2024-07-03T15:31:56.406Z",
+                    "updatedAt": "2024-07-03T15:31:56.406Z"
+                  }
+                },
+                {
+                  "id": 7,
+                  "attributes": {
+                    "name": "take-action2.jpg",
+                    "alternativeText": null,
+                    "caption": null,
+                    "width": 5000,
+                    "height": 3333,
+                    "formats": {
+                      "large": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720009916/large_take_action2_119410abed.jpg",
+                        "hash": "large_take_action2_119410abed",
+                        "mime": "image/jpeg",
+                        "name": "large_take-action2.jpg",
+                        "path": null,
+                        "size": 112.78,
+                        "width": 1000,
+                        "height": 666,
+                        "provider_metadata": {
+                          "public_id": "large_take_action2_119410abed",
+                          "resource_type": "image"
+                        }
+                      },
+                      "small": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720009915/small_take_action2_119410abed.jpg",
+                        "hash": "small_take_action2_119410abed",
+                        "mime": "image/jpeg",
+                        "name": "small_take-action2.jpg",
+                        "path": null,
+                        "size": 33.48,
+                        "width": 500,
+                        "height": 333,
+                        "provider_metadata": {
+                          "public_id": "small_take_action2_119410abed",
+                          "resource_type": "image"
+                        }
+                      },
+                      "medium": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720009916/medium_take_action2_119410abed.jpg",
+                        "hash": "medium_take_action2_119410abed",
+                        "mime": "image/jpeg",
+                        "name": "medium_take-action2.jpg",
+                        "path": null,
+                        "size": 69.21,
+                        "width": 750,
+                        "height": 500,
+                        "provider_metadata": {
+                          "public_id": "medium_take_action2_119410abed",
+                          "resource_type": "image"
+                        }
+                      },
+                      "thumbnail": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720009915/thumbnail_take_action2_119410abed.jpg",
+                        "hash": "thumbnail_take_action2_119410abed",
+                        "mime": "image/jpeg",
+                        "name": "thumbnail_take-action2.jpg",
+                        "path": null,
+                        "size": 9.2,
+                        "width": 234,
+                        "height": 156,
+                        "provider_metadata": {
+                          "public_id": "thumbnail_take_action2_119410abed",
+                          "resource_type": "image"
+                        }
+                      }
+                    },
+                    "hash": "take_action2_119410abed",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "size": 1724,
+                    "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720009916/take_action2_119410abed.jpg",
+                    "previewUrl": null,
+                    "provider": "cloudinary",
+                    "provider_metadata": {
+                      "public_id": "take_action2_119410abed",
+                      "resource_type": "image"
+                    },
+                    "createdAt": "2024-07-03T15:31:56.749Z",
+                    "updatedAt": "2024-07-23T12:59:21.456Z"
+                  }
+                },
+                {
+                  "id": 8,
+                  "attributes": {
+                    "name": "take-action1.jpg",
+                    "alternativeText": null,
+                    "caption": null,
+                    "width": 6240,
+                    "height": 4160,
+                    "formats": {
+                      "large": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720009916/large_take_action1_bf89ee03d1.jpg",
+                        "hash": "large_take_action1_bf89ee03d1",
+                        "mime": "image/jpeg",
+                        "name": "large_take-action1.jpg",
+                        "path": null,
+                        "size": 100.88,
+                        "width": 1000,
+                        "height": 667,
+                        "provider_metadata": {
+                          "public_id": "large_take_action1_bf89ee03d1",
+                          "resource_type": "image"
+                        }
+                      },
+                      "small": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720009916/small_take_action1_bf89ee03d1.jpg",
+                        "hash": "small_take_action1_bf89ee03d1",
+                        "mime": "image/jpeg",
+                        "name": "small_take-action1.jpg",
+                        "path": null,
+                        "size": 31.15,
+                        "width": 500,
+                        "height": 333,
+                        "provider_metadata": {
+                          "public_id": "small_take_action1_bf89ee03d1",
+                          "resource_type": "image"
+                        }
+                      },
+                      "medium": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720009916/medium_take_action1_bf89ee03d1.jpg",
+                        "hash": "medium_take_action1_bf89ee03d1",
+                        "mime": "image/jpeg",
+                        "name": "medium_take-action1.jpg",
+                        "path": null,
+                        "size": 62.24,
+                        "width": 750,
+                        "height": 500,
+                        "provider_metadata": {
+                          "public_id": "medium_take_action1_bf89ee03d1",
+                          "resource_type": "image"
+                        }
+                      },
+                      "thumbnail": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720009915/thumbnail_take_action1_bf89ee03d1.jpg",
+                        "hash": "thumbnail_take_action1_bf89ee03d1",
+                        "mime": "image/jpeg",
+                        "name": "thumbnail_take-action1.jpg",
+                        "path": null,
+                        "size": 9.41,
+                        "width": 234,
+                        "height": 156,
+                        "provider_metadata": {
+                          "public_id": "thumbnail_take_action1_bf89ee03d1",
+                          "resource_type": "image"
+                        }
+                      }
+                    },
+                    "hash": "take_action1_bf89ee03d1",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "size": 2902.37,
+                    "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720009917/take_action1_bf89ee03d1.jpg",
+                    "previewUrl": null,
+                    "provider": "cloudinary",
+                    "provider_metadata": {
+                      "public_id": "take_action1_bf89ee03d1",
+                      "resource_type": "image"
+                    },
+                    "createdAt": "2024-07-03T15:31:57.384Z",
+                    "updatedAt": "2024-07-03T15:31:57.384Z"
+                  }
+                }
+              ]
+            }
+          },
+          "stories": {
+            "id": 2,
+            "title": "Povești de succes: Călătorii inspirate către recuperare",
+            "description": "Descoperiți modul în care Fundația Equilibrium a ajutat persoane să își recupereze viața de pe urma dependenței.",
+            "items": [
+              {
+                "id": 3,
+                "text": "Înainte de a găsi Fundația Equilibrium, mă simțeam pierdută și fără speranță. Abordarea lor holistică și sprijinul plin de compasiune m-au ajutat să-mi recâștig viața. Astăzi, sunt mândră să spun că nu mai sunt dependentă și că trăiesc o viață echilibrată și plină de satisfacții.",
+                "name": "Maria D.",
+                "location": "Tg.Mures"
+              },
+              {
+                "id": 4,
+                "text": "Fundația Equilibrium mi-a salvat viața. Planul lor de tratament personalizat și sprijinul continuu mi-au oferit instrumentele de care aveam nevoie pentru a-mi depăși dependența. Le sunt recunoscătoare pentru totdeauna pentru noul început pe care mi l-au oferit.",
+                "name": "Alex P.",
+                "location": "Tg. Mures"
+              }
+            ]
+          },
+          "forYou": {
+            "id": 2,
+            "smallTitle": "Sprijin cuprinzător",
+            "title": "Programe pentru comunitate și familie",
+            "items": [
+              {
+                "id": 6,
+                "text": "Planuri de recuperare personalizate"
+              },
+              {
+                "id": 7,
+                "text": "Vindecarea fizică, emoțională și socială"
+              },
+              {
+                "id": 8,
+                "text": "Sprijin dedicat persoanelor și familiilor"
+              },
+              {
+                "id": 9,
+                "text": "Consiliere familială și grupuri de sprijin"
+              }
+            ]
+          },
+          "contact": {
+            "id": 2,
+            "text": "Contactați-ne: Contactați-ne astăzi pentru sprijin și îndrumare",
+            "title": "Contactați-ne",
+            "titleTwo": "Aveți întrebări? Contactați-ne prin mesaj",
+            "button": "Trimite mesaj",
+            "inputFields": [
+              {
+                "id": 4,
+                "name": "Nume",
+                "placeholder": "Numele dvs."
+              },
+              {
+                "id": 5,
+                "name": "Email",
+                "placeholder": "email dvs."
+              },
+              {
+                "id": 6,
+                "name": "Mesajul",
+                "placeholder": "Mesajul dvs."
+              }
+            ],
+            "contactItems": [
+              {
+                "id": 7,
+                "title": "Adresa noastră",
+                "text": "Cluj-Napoca, Romania"
+              },
+              {
+                "id": 8,
+                "title": "Sunați-ne",
+                "text": "+40749713794"
+              },
+              {
+                "id": 9,
+                "title": "Trimite e-mail",
+                "text": "office@retrophoneworld.com"
+              }
+            ]
+          },
+          "seo": {
+            "id": 3,
+            "metaTitle": "Fundației Equilibrium Home page",
+            "metaDescription": "Descoperă lumea Equilibrium, unde atingerea echilibrului interior și a armoniei este obiectivul. Noi te ajutăm să găsești pacea interioară.",
+            "keywords": "Equilibrium, echilibru interior, armonie, meditație, practici de yoga, sfaturi pentru stil de viață, pace interioară, relaxare, gestionarea stresului, mindfulness, sănătate mentală, sănătate fizică, wellness, creștere spirituală, viață conștientă, niveluri de energie, bunăstare mentală, gândire pozitivă, autocunoaștere, stil de viață sănătos",
+            "metaRobots": null,
+            "structuredData": null,
+            "metaViewport": null,
+            "canonicalURL": null,
+            "metaImage": {
+              "data": null
+            },
+            "metaSocial": [
+              {
+                "id": 3,
+                "socialNetwork": "Facebook",
+                "title": "awd",
+                "description": "awd",
+                "image": {
+                  "data": null
+                }
+              }
+            ]
+          },
+          "localizations": {
+            "data": [
+              {
+                "id": 1,
+                "attributes": {
+                  "createdAt": "2024-07-02T14:59:18.465Z",
+                  "updatedAt": "2024-07-23T08:50:37.122Z",
+                  "publishedAt": "2024-07-02T14:59:29.573Z",
+                  "locale": "en"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "meta": {}
+    },
+    "cookie-page": {
+      "data": {
+        "id": 2,
+        "attributes": {
+          "createdAt": "2024-07-18T11:16:12.148Z",
+          "updatedAt": "2024-07-22T14:20:40.196Z",
+          "publishedAt": "2024-07-18T11:17:32.441Z",
+          "locale": "ro",
+          "cookiePage": {
+            "id": 2,
+            "title": "Cookie Policy",
+            "text": "Ultima actualizare: [Data]\n\n[Numele companiei dumneavoastră] („noi” sau „al nostru”) utilizează module cookie pe [Site-ul dumneavoastră] (denumit în continuare „Serviciul”). Prin utilizarea Serviciului, sunteți de acord cu utilizarea de module cookie.\n\nCe sunt modulele cookie?\n\nCookie-urile sunt fragmente mici de text trimise către browserul dvs. web de către un site web pe care îl vizitați. Un fișier cookie este stocat în browserul dvs. web și permite Serviciului sau unei terțe părți să vă recunoască și să facă următoarea dvs. vizită mai ușoară și Serviciul mai util pentru dvs.\n\nModul în care [Numele companiei dumneavoastră] utilizează modulele cookie\n\nAtunci când utilizați și accesați Serviciul, este posibil să plasăm o serie de fișiere cookie în browserul dvs. web. Utilizăm module cookie în următoarele scopuri:\n\nPentru a permite anumite funcții ale Serviciului\nPentru a furniza date analitice\nPentru a stoca preferințele dvs.\nPentru a permite livrarea de reclame, inclusiv publicitatea comportamentală\nUtilizăm atât cookie-uri de sesiune, cât și cookie-uri persistente pe Serviciu și folosim diferite tipuri de cookie-uri pentru a rula Serviciul:\n\nCookie-uri esențiale: Putem utiliza cookie-uri esențiale pentru a autentifica utilizatorii și a preveni utilizarea frauduloasă a conturilor de utilizator.\nCookie-uri de preferințe: Putem utiliza cookie-uri de preferințe pentru a reține informații care modifică modul în care Serviciul se comportă sau arată, cum ar fi funcționalitatea „remember me” a unui utilizator înregistrat sau preferința de limbă a unui utilizator.\nCookie-uri de analiză: Putem utiliza cookie-uri de analiză pentru a urmări informații despre modul în care este utilizat Serviciul, astfel încât să putem face îmbunătățiri. De asemenea, putem utiliza cookie-uri analitice pentru a testa noi reclame, pagini, caracteristici sau noi funcționalități ale Serviciului pentru a vedea cum utilizatorul nostru\n\nTranslated with DeepL.com (free version)",
+            "image": {
+              "data": {
+                "id": 5,
+                "attributes": {
+                  "name": "banner1.jpg",
+                  "alternativeText": null,
+                  "caption": null,
+                  "width": 1280,
+                  "height": 853,
+                  "formats": {
+                    "large": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720008360/large_banner1_2156f292c4.jpg",
+                      "hash": "large_banner1_2156f292c4",
+                      "mime": "image/jpeg",
+                      "name": "large_banner1.jpg",
+                      "path": null,
+                      "size": 76,
+                      "width": 1000,
+                      "height": 666,
+                      "provider_metadata": {
+                        "public_id": "large_banner1_2156f292c4",
+                        "resource_type": "image"
+                      }
+                    },
+                    "small": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720008360/small_banner1_2156f292c4.jpg",
+                      "hash": "small_banner1_2156f292c4",
+                      "mime": "image/jpeg",
+                      "name": "small_banner1.jpg",
+                      "path": null,
+                      "size": 23.25,
+                      "width": 500,
+                      "height": 333,
+                      "provider_metadata": {
+                        "public_id": "small_banner1_2156f292c4",
+                        "resource_type": "image"
+                      }
+                    },
+                    "medium": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720008360/medium_banner1_2156f292c4.jpg",
+                      "hash": "medium_banner1_2156f292c4",
+                      "mime": "image/jpeg",
+                      "name": "medium_banner1.jpg",
+                      "path": null,
+                      "size": 46.78,
+                      "width": 750,
+                      "height": 500,
+                      "provider_metadata": {
+                        "public_id": "medium_banner1_2156f292c4",
+                        "resource_type": "image"
+                      }
+                    },
+                    "thumbnail": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720008360/thumbnail_banner1_2156f292c4.jpg",
+                      "hash": "thumbnail_banner1_2156f292c4",
+                      "mime": "image/jpeg",
+                      "name": "thumbnail_banner1.jpg",
+                      "path": null,
+                      "size": 6.2,
+                      "width": 234,
+                      "height": 156,
+                      "provider_metadata": {
+                        "public_id": "thumbnail_banner1_2156f292c4",
+                        "resource_type": "image"
+                      }
+                    }
+                  },
+                  "hash": "banner1_2156f292c4",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "size": 113.41,
+                  "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720008360/banner1_2156f292c4.jpg",
+                  "previewUrl": null,
+                  "provider": "cloudinary",
+                  "provider_metadata": {
+                    "public_id": "banner1_2156f292c4",
+                    "resource_type": "image"
+                  },
+                  "createdAt": "2024-07-03T15:06:00.692Z",
+                  "updatedAt": "2024-07-03T15:06:00.692Z"
+                }
+              }
+            }
+          },
+          "seo": {
+            "id": 4,
+            "metaTitle": "Fundației Equilibrium Cookie page",
+            "metaDescription": "Descoperă lumea Equilibrium, unde atingerea echilibrului interior și a armoniei este obiectivul. Noi te ajutăm să găsești pacea interioară.",
+            "keywords": "Equilibrium, echilibru interior, armonie, meditație, practici de yoga, sfaturi pentru stil de viață, pace interioară, relaxare, gestionarea stresului, mindfulness, sănătate mentală, sănătate fizică, wellness, creștere spirituală, viață conștientă, niveluri de energie, bunăstare mentală, gândire pozitivă, autocunoaștere, stil de viață sănătos",
+            "metaRobots": null,
+            "structuredData": null,
+            "metaViewport": null,
+            "canonicalURL": null,
+            "metaImage": {
+              "data": null
+            },
+            "metaSocial": []
+          },
+          "localizations": {
+            "data": [
+              {
+                "id": 1,
+                "attributes": {
+                  "createdAt": "2024-07-04T15:24:06.483Z",
+                  "updatedAt": "2024-07-22T14:21:40.252Z",
+                  "publishedAt": "2024-07-04T15:34:32.486Z",
+                  "locale": "en"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "meta": {}
+    },
+    "terms-and-conditions-page": {
+      "data": {
+        "id": 2,
+        "attributes": {
+          "createdAt": "2024-07-19T10:37:41.258Z",
+          "updatedAt": "2024-07-22T14:25:34.386Z",
+          "publishedAt": "2024-07-19T10:39:22.212Z",
+          "locale": "ro",
+          "termsAndConditions": {
+            "id": 2,
+            "title": "Termeni și condiții",
+            "text": "Ultima actualizare: [Data]\n\nVă rugăm să citiți cu atenție acești Termeni și condiții („Termeni”, „Termeni și condiții”) înainte de a utiliza site-ul web [Your Website] (denumit în continuare „Serviciul”) operat de [Your Company Name] („noi”, „ne”, „nostru” sau „noastră”).\n\n1. Acceptarea termenilor\n\nPrin accesarea sau utilizarea Serviciului nostru, sunteți de acord să respectați acești Termeni. Dacă nu sunteți de acord cu orice parte a Termenilor, atunci nu aveți permisiunea de a accesa Serviciul.\n\n2. Conturi\n\nAtunci când vă creați un cont la noi, trebuie să ne furnizați informații exacte, complete și actuale în orice moment. Nerespectarea acestei prevederi constituie o încălcare a Termenilor, care poate duce la închiderea imediată a contului dvs. pe Serviciul nostru.\n\nSunteți responsabil pentru protejarea parolei pe care o utilizați pentru a accesa Serviciul și pentru orice activități sau acțiuni efectuate cu parola dvs., indiferent dacă parola dvs. se află pe Serviciul nostru sau pe un serviciu al unei terțe părți.\n\nSunteți de acord să nu dezvăluiți parola dvs. niciunei terțe părți. Trebuie să ne notificați imediat după ce luați cunoștință de orice încălcare a securității sau utilizare neautorizată a contului dumneavoastră.\n\n3. Proprietatea intelectuală\n\nServiciul și conținutul original, caracteristicile și funcționalitatea acestuia sunt și vor rămâne proprietatea exclusivă a [Numele companiei dvs.] și a licențiatorilor săi. Serviciul este protejat prin drepturi de autor, mărci comerciale și alte legi de stat",
+            "image": {
+              "data": {
+                "id": 9,
+                "attributes": {
+                  "name": "pexels-photo-3889725.jpg",
+                  "alternativeText": null,
+                  "caption": null,
+                  "width": 1125,
+                  "height": 750,
+                  "formats": {
+                    "large": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720095945/large_pexels_photo_3889725_71116c9057.jpg",
+                      "hash": "large_pexels_photo_3889725_71116c9057",
+                      "mime": "image/jpeg",
+                      "name": "large_pexels-photo-3889725.jpg",
+                      "path": null,
+                      "size": 62.23,
+                      "width": 1000,
+                      "height": 667,
+                      "provider_metadata": {
+                        "public_id": "large_pexels_photo_3889725_71116c9057",
+                        "resource_type": "image"
+                      }
+                    },
+                    "small": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720095945/small_pexels_photo_3889725_71116c9057.jpg",
+                      "hash": "small_pexels_photo_3889725_71116c9057",
+                      "mime": "image/jpeg",
+                      "name": "small_pexels-photo-3889725.jpg",
+                      "path": null,
+                      "size": 22.59,
+                      "width": 500,
+                      "height": 333,
+                      "provider_metadata": {
+                        "public_id": "small_pexels_photo_3889725_71116c9057",
+                        "resource_type": "image"
+                      }
+                    },
+                    "medium": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720095945/medium_pexels_photo_3889725_71116c9057.jpg",
+                      "hash": "medium_pexels_photo_3889725_71116c9057",
+                      "mime": "image/jpeg",
+                      "name": "medium_pexels-photo-3889725.jpg",
+                      "path": null,
+                      "size": 41.1,
+                      "width": 750,
+                      "height": 500,
+                      "provider_metadata": {
+                        "public_id": "medium_pexels_photo_3889725_71116c9057",
+                        "resource_type": "image"
+                      }
+                    },
+                    "thumbnail": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720095945/thumbnail_pexels_photo_3889725_71116c9057.jpg",
+                      "hash": "thumbnail_pexels_photo_3889725_71116c9057",
+                      "mime": "image/jpeg",
+                      "name": "thumbnail_pexels-photo-3889725.jpg",
+                      "path": null,
+                      "size": 7.71,
+                      "width": 234,
+                      "height": 156,
+                      "provider_metadata": {
+                        "public_id": "thumbnail_pexels_photo_3889725_71116c9057",
+                        "resource_type": "image"
+                      }
+                    }
+                  },
+                  "hash": "pexels_photo_3889725_71116c9057",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "size": 62.33,
+                  "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720095945/pexels_photo_3889725_71116c9057.jpg",
+                  "previewUrl": null,
+                  "provider": "cloudinary",
+                  "provider_metadata": {
+                    "public_id": "pexels_photo_3889725_71116c9057",
+                    "resource_type": "image"
+                  },
+                  "createdAt": "2024-07-04T15:25:44.818Z",
+                  "updatedAt": "2024-07-04T15:25:44.818Z"
+                }
+              }
+            }
+          },
+          "seo": {
+            "id": 7,
+            "metaTitle": "Fundației Equilibrium Terms and Conditions page",
+            "metaDescription": "Descoperă lumea Equilibrium, unde atingerea echilibrului interior și a armoniei este obiectivul. Noi te ajutăm să găsești pacea interioară.",
+            "keywords": "Equilibrium, echilibru interior, armonie, meditație, practici de yoga, sfaturi pentru stil de viață, pace interioară, relaxare, gestionarea stresului, mindfulness, sănătate mentală, sănătate fizică, wellness, creștere spirituală, viață conștientă, niveluri de energie, bunăstare mentală, gândire pozitivă, autocunoaștere, stil de viață sănătos",
+            "metaRobots": null,
+            "structuredData": null,
+            "metaViewport": null,
+            "canonicalURL": null,
+            "metaImage": {
+              "data": null
+            },
+            "metaSocial": []
+          },
+          "localizations": {
+            "data": [
+              {
+                "id": 1,
+                "attributes": {
+                  "createdAt": "2024-07-04T15:26:04.015Z",
+                  "updatedAt": "2024-07-22T14:23:26.720Z",
+                  "publishedAt": "2024-07-08T11:32:52.158Z",
+                  "locale": "en"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "meta": {}
+    },
+    "privacy-policy": {
+      "data": {
+        "id": 2,
+        "attributes": {
+          "createdAt": "2024-07-19T10:29:39.980Z",
+          "updatedAt": "2024-07-22T14:26:29.620Z",
+          "publishedAt": "2024-07-19T10:40:16.974Z",
+          "locale": "ro",
+          "privacyPolicy": {
+            "id": 2,
+            "title": "Politica de confidențialitate",
+            "text": "Ultima actualizare: [Data]\n\n\n[Numele companiei dumneavoastră] („noi” sau „al nostru”) utilizează module cookie pe [Site-ul dumneavoastră] (denumit în continuare „Serviciul”). Prin utilizarea Serviciului, sunteți de acord cu utilizarea de module cookie.\n\nCe sunt modulele cookie?\n\nCookie-urile sunt fragmente mici de text trimise către browserul dvs. web de către un site web pe care îl vizitați. Un fișier cookie este stocat în browserul dvs. web și permite Serviciului sau unei terțe părți să vă recunoască și să facă următoarea dvs. vizită mai ușoară și Serviciul mai util pentru dvs.\n\nModul în care [Numele companiei dumneavoastră] utilizează modulele cookie\n\nAtunci când utilizați și accesați Serviciul, este posibil să plasăm o serie de fișiere cookie în browserul dvs. web. Utilizăm module cookie în următoarele scopuri:\n\nPentru a permite anumite funcții ale Serviciului\n\nPentru a furniza date analitice\n\nPentru a stoca preferințele dvs.\n\nPentru a permite livrarea de reclame, inclusiv publicitatea comportamentală\n\n\nUtilizăm atât cookie-uri de sesiune, cât și cookie-uri persistente pe Serviciu și folosim diferite tipuri de cookie-uri pentru a rula Serviciul:\n\nCookie-uri esențiale: Putem utiliza cookie-uri esențiale pentru a autentifica utilizatorii și a preveni utilizarea frauduloasă a conturilor de utilizator.\nCookie-uri de preferințe: Putem utiliza cookie-uri de preferințe pentru a reține informații care modifică modul în care Serviciul se comportă sau arată, cum ar fi funcționalitatea „remember me” a unui utilizator înregistrat sau preferința de limbă a unui utilizator.\n\n\nCookie-uri de analiză: Putem utiliza cookie-uri de analiză pentru a urmări informații despre modul în care este utilizat Serviciul, astfel încât să putem face îmbunătățiri. De asemenea, putem utiliza cookie-uri analitice pentru a testa noi reclame, pagini, caracteristici sau noi funcționalități ale Serviciului pentru a vedea cum ",
+            "image": {
+              "data": {
+                "id": 10,
+                "attributes": {
+                  "name": "banner-privacy.jpg",
+                  "alternativeText": null,
+                  "caption": null,
+                  "width": 4256,
+                  "height": 2832,
+                  "formats": {
+                    "large": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720096156/large_banner_privacy_93d1b92056.jpg",
+                      "hash": "large_banner_privacy_93d1b92056",
+                      "mime": "image/jpeg",
+                      "name": "large_banner-privacy.jpg",
+                      "path": null,
+                      "size": 108.67,
+                      "width": 1000,
+                      "height": 665,
+                      "provider_metadata": {
+                        "public_id": "large_banner_privacy_93d1b92056",
+                        "resource_type": "image"
+                      }
+                    },
+                    "small": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720096156/small_banner_privacy_93d1b92056.jpg",
+                      "hash": "small_banner_privacy_93d1b92056",
+                      "mime": "image/jpeg",
+                      "name": "small_banner-privacy.jpg",
+                      "path": null,
+                      "size": 29.34,
+                      "width": 500,
+                      "height": 333,
+                      "provider_metadata": {
+                        "public_id": "small_banner_privacy_93d1b92056",
+                        "resource_type": "image"
+                      }
+                    },
+                    "medium": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720096156/medium_banner_privacy_93d1b92056.jpg",
+                      "hash": "medium_banner_privacy_93d1b92056",
+                      "mime": "image/jpeg",
+                      "name": "medium_banner-privacy.jpg",
+                      "path": null,
+                      "size": 61.98,
+                      "width": 750,
+                      "height": 499,
+                      "provider_metadata": {
+                        "public_id": "medium_banner_privacy_93d1b92056",
+                        "resource_type": "image"
+                      }
+                    },
+                    "thumbnail": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720096156/thumbnail_banner_privacy_93d1b92056.jpg",
+                      "hash": "thumbnail_banner_privacy_93d1b92056",
+                      "mime": "image/jpeg",
+                      "name": "thumbnail_banner-privacy.jpg",
+                      "path": null,
+                      "size": 7.73,
+                      "width": 234,
+                      "height": 156,
+                      "provider_metadata": {
+                        "public_id": "thumbnail_banner_privacy_93d1b92056",
+                        "resource_type": "image"
+                      }
+                    }
+                  },
+                  "hash": "banner_privacy_93d1b92056",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "size": 1924.16,
+                  "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720096156/banner_privacy_93d1b92056.jpg",
+                  "previewUrl": null,
+                  "provider": "cloudinary",
+                  "provider_metadata": {
+                    "public_id": "banner_privacy_93d1b92056",
+                    "resource_type": "image"
+                  },
+                  "createdAt": "2024-07-04T15:29:16.204Z",
+                  "updatedAt": "2024-07-04T15:29:16.204Z"
+                }
+              }
+            }
+          },
+          "seo": {
+            "id": 8,
+            "metaTitle": "Fundației Equilibrium Privacu policy page",
+            "metaDescription": "Descoperă lumea Equilibrium, unde atingerea echilibrului interior și a armoniei este obiectivul. Noi te ajutăm să găsești pacea interioară.",
+            "keywords": "Equilibrium, echilibru interior, armonie, meditație, practici de yoga, sfaturi pentru stil de viață, pace interioară, relaxare, gestionarea stresului, mindfulness, sănătate mentală, sănătate fizică, wellness, creștere spirituală, viață conștientă, niveluri de energie, bunăstare mentală, gândire pozitivă, autocunoaștere, stil de viață sănătos",
+            "metaRobots": null,
+            "structuredData": null,
+            "metaViewport": null,
+            "canonicalURL": null,
+            "metaImage": {
+              "data": null
+            },
+            "metaSocial": []
+          },
+          "localizations": {
+            "data": [
+              {
+                "id": 1,
+                "attributes": {
+                  "createdAt": "2024-07-04T15:30:21.246Z",
+                  "updatedAt": "2024-07-22T14:22:31.466Z",
+                  "publishedAt": "2024-07-08T11:33:02.403Z",
+                  "locale": "en"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "meta": {}
+    },
+    "thank-you-page": {
+      "data": {
+        "id": 2,
+        "attributes": {
+          "createdAt": "2024-07-19T10:25:20.730Z",
+          "updatedAt": "2024-07-19T10:38:56.530Z",
+          "publishedAt": "2024-07-19T10:38:55.991Z",
+          "locale": "ro",
+          "thankYouPage": {
+            "id": 2,
+            "title": "Vă mulțumim",
+            "text": "Vă mulțumim pentru că ne-ați contactat.",
+            "button": "Înapoi la început",
+            "image": {
+              "data": {
+                "id": 3,
+                "attributes": {
+                  "name": "hero3.jpg",
+                  "alternativeText": null,
+                  "caption": null,
+                  "width": 5000,
+                  "height": 3333,
+                  "formats": {
+                    "large": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720001486/large_hero3_72ffbc7098.jpg",
+                      "hash": "large_hero3_72ffbc7098",
+                      "mime": "image/jpeg",
+                      "name": "large_hero3.jpg",
+                      "path": null,
+                      "size": 93.76,
+                      "width": 1000,
+                      "height": 666,
+                      "provider_metadata": {
+                        "public_id": "large_hero3_72ffbc7098",
+                        "resource_type": "image"
+                      }
+                    },
+                    "small": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720001485/small_hero3_72ffbc7098.jpg",
+                      "hash": "small_hero3_72ffbc7098",
+                      "mime": "image/jpeg",
+                      "name": "small_hero3.jpg",
+                      "path": null,
+                      "size": 26.95,
+                      "width": 500,
+                      "height": 333,
+                      "provider_metadata": {
+                        "public_id": "small_hero3_72ffbc7098",
+                        "resource_type": "image"
+                      }
+                    },
+                    "medium": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720001486/medium_hero3_72ffbc7098.jpg",
+                      "hash": "medium_hero3_72ffbc7098",
+                      "mime": "image/jpeg",
+                      "name": "medium_hero3.jpg",
+                      "path": null,
+                      "size": 56.66,
+                      "width": 750,
+                      "height": 500,
+                      "provider_metadata": {
+                        "public_id": "medium_hero3_72ffbc7098",
+                        "resource_type": "image"
+                      }
+                    },
+                    "thumbnail": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720001485/thumbnail_hero3_72ffbc7098.jpg",
+                      "hash": "thumbnail_hero3_72ffbc7098",
+                      "mime": "image/jpeg",
+                      "name": "thumbnail_hero3.jpg",
+                      "path": null,
+                      "size": 7.39,
+                      "width": 234,
+                      "height": 156,
+                      "provider_metadata": {
+                        "public_id": "thumbnail_hero3_72ffbc7098",
+                        "resource_type": "image"
+                      }
+                    }
+                  },
+                  "hash": "hero3_72ffbc7098",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "size": 1444.95,
+                  "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720001486/hero3_72ffbc7098.jpg",
+                  "previewUrl": null,
+                  "provider": "cloudinary",
+                  "provider_metadata": {
+                    "public_id": "hero3_72ffbc7098",
+                    "resource_type": "image"
+                  },
+                  "createdAt": "2024-07-03T13:11:26.211Z",
+                  "updatedAt": "2024-07-04T15:26:30.767Z"
+                }
+              }
+            }
+          },
+          "seo": null,
+          "localizations": {
+            "data": [
+              {
+                "id": 1,
+                "attributes": {
+                  "createdAt": "2024-07-04T15:26:46.836Z",
+                  "updatedAt": "2024-07-19T10:25:22.916Z",
+                  "publishedAt": "2024-07-08T11:33:15.788Z",
+                  "locale": "en"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "meta": {}
+    },
+    "support-page": {
+      "data": {
+        "id": 2,
+        "attributes": {
+          "createdAt": "2024-07-23T14:19:39.203Z",
+          "updatedAt": "2024-07-26T10:34:49.507Z",
+          "publishedAt": "2024-07-26T10:34:48.967Z",
+          "locale": "ro",
+          "support": {
+            "id": 3,
+            "description": "Retro Phone World, parcul tematic interactiv, deține cea mai mare colecție de telefoane mobile din lume, un record mondial certificat de Guinness World Records. În prezent, colecția noastră a crescut la peste 15.000 de telefoane mobile, incluzând peste 350 de prototipuri și modele unice în lume.\nFundația Equilibrum Foundation oferă trei metode simple și eficiente prin care ne puteți susține: donații directe, redistribuirea impozitului pe profit și sponsorizări corporative.",
+            "title": "Susține Retro Phone World prin Fundația Equilibrum Foundation",
+            "image": {
+              "data": {
+                "id": 7,
+                "attributes": {
+                  "name": "take-action2.jpg",
+                  "alternativeText": null,
+                  "caption": null,
+                  "width": 5000,
+                  "height": 3333,
+                  "formats": {
+                    "large": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720009916/large_take_action2_119410abed.jpg",
+                      "hash": "large_take_action2_119410abed",
+                      "mime": "image/jpeg",
+                      "name": "large_take-action2.jpg",
+                      "path": null,
+                      "size": 112.78,
+                      "width": 1000,
+                      "height": 666,
+                      "provider_metadata": {
+                        "public_id": "large_take_action2_119410abed",
+                        "resource_type": "image"
+                      }
+                    },
+                    "small": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720009915/small_take_action2_119410abed.jpg",
+                      "hash": "small_take_action2_119410abed",
+                      "mime": "image/jpeg",
+                      "name": "small_take-action2.jpg",
+                      "path": null,
+                      "size": 33.48,
+                      "width": 500,
+                      "height": 333,
+                      "provider_metadata": {
+                        "public_id": "small_take_action2_119410abed",
+                        "resource_type": "image"
+                      }
+                    },
+                    "medium": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720009916/medium_take_action2_119410abed.jpg",
+                      "hash": "medium_take_action2_119410abed",
+                      "mime": "image/jpeg",
+                      "name": "medium_take-action2.jpg",
+                      "path": null,
+                      "size": 69.21,
+                      "width": 750,
+                      "height": 500,
+                      "provider_metadata": {
+                        "public_id": "medium_take_action2_119410abed",
+                        "resource_type": "image"
+                      }
+                    },
+                    "thumbnail": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720009915/thumbnail_take_action2_119410abed.jpg",
+                      "hash": "thumbnail_take_action2_119410abed",
+                      "mime": "image/jpeg",
+                      "name": "thumbnail_take-action2.jpg",
+                      "path": null,
+                      "size": 9.2,
+                      "width": 234,
+                      "height": 156,
+                      "provider_metadata": {
+                        "public_id": "thumbnail_take_action2_119410abed",
+                        "resource_type": "image"
+                      }
+                    }
+                  },
+                  "hash": "take_action2_119410abed",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "size": 1724,
+                  "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720009916/take_action2_119410abed.jpg",
+                  "previewUrl": null,
+                  "provider": "cloudinary",
+                  "provider_metadata": {
+                    "public_id": "take_action2_119410abed",
+                    "resource_type": "image"
+                  },
+                  "createdAt": "2024-07-03T15:31:56.749Z",
+                  "updatedAt": "2024-07-23T12:59:21.456Z"
+                }
+              }
+            },
+            "card": [
+              {
+                "id": 8,
+                "title": "Donează direct",
+                "description": "Contribuie direct la susținerea Retro Phone World printr-o donație financiară."
+              },
+              {
+                "id": 9,
+                "title": "Redistribuție de impozit pe profit",
+                "description": "Modalitate simplă de a sprijini inițiativele noastre fără costuri suplimentare pentru compania ta."
+              },
+              {
+                "id": 10,
+                "title": "Sponsorizare",
+                "description": "Deveniți partener oficial al Retro Phone World prin sponsorizări corporative."
+              }
+            ]
+          },
+          "localizations": {
+            "data": [
+              {
+                "id": 1,
+                "attributes": {
+                  "createdAt": "2024-07-23T13:00:37.095Z",
+                  "updatedAt": "2024-07-26T10:23:50.243Z",
+                  "publishedAt": "2024-07-23T13:11:37.633Z",
+                  "locale": "en"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "meta": {}
+    },
+    "contacts": {
+      "data": [
+        {
+          "id": 1,
+          "attributes": {
+            "name": "Andor",
+            "email": "pal.andor71@gmail.com",
+            "message": "Helloö",
+            "createdAt": "2024-07-08T12:44:36.165Z",
+            "updatedAt": "2024-07-08T12:44:41.883Z",
+            "publishedAt": "2024-07-08T12:44:41.508Z"
+          }
+        },
+        {
+          "id": 2,
+          "attributes": {
+            "name": "Andor",
+            "email": "andor.pal@prismasolutions.ro",
+            "message": "Test",
+            "createdAt": "2024-07-08T12:57:11.321Z",
+            "updatedAt": "2024-07-08T12:57:11.321Z",
+            "publishedAt": "2024-07-08T12:57:11.320Z"
+          }
+        },
+        {
+          "id": 3,
+          "attributes": {
+            "name": "Andor",
+            "email": "andor.pal@prismasolutions.ro",
+            "message": "awdawdawdawd",
+            "createdAt": "2024-07-08T13:58:39.606Z",
+            "updatedAt": "2024-07-08T13:58:39.606Z",
+            "publishedAt": "2024-07-08T13:58:39.602Z"
+          }
+        },
+        {
+          "id": 4,
+          "attributes": {
+            "name": "test",
+            "email": "test@test.com",
+            "message": "test",
+            "createdAt": "2024-07-22T15:26:00.196Z",
+            "updatedAt": "2024-07-22T15:26:00.196Z",
+            "publishedAt": "2024-07-22T15:26:00.192Z"
+          }
+        }
+      ],
+      "meta": {
+        "pagination": {
+          "page": 1,
+          "pageSize": 25,
+          "pageCount": 1,
+          "total": 4
+        }
+      }
+    },
+    "paymany-contacts": {
+      "data": [
+        {
+          "id": 3,
+          "attributes": {
+            "firstName": "Juan Francisco",
+            "lastName": "García Flores",
+            "email": "ejemplo@ejemplo.mx",
+            "phone": "5553428400",
+            "country": "Mexico",
+            "county": "Distrito Federal",
+            "address": "C. Montes Urales 445",
+            "zipCode": 11000,
+            "message": "awd",
+            "amount": 0,
+            "createdAt": "2024-07-26T11:48:05.249Z",
+            "updatedAt": "2024-07-26T11:48:05.249Z",
+            "publishedAt": "2024-07-26T11:48:05.245Z"
+          }
+        }
+      ],
+      "meta": {
+        "pagination": {
+          "page": 1,
+          "pageSize": 25,
+          "pageCount": 1,
+          "total": 1
+        }
+      }
+    }
+  },
+  "en": {
+    "home-page": {
+      "data": {
+        "id": 1,
+        "attributes": {
+          "createdAt": "2024-07-02T14:59:18.465Z",
+          "updatedAt": "2024-07-23T08:50:37.122Z",
+          "publishedAt": "2024-07-02T14:59:29.573Z",
+          "locale": "en",
+          "hero": {
+            "id": 2,
+            "title": "Equilibrum Foundation",
+            "lead": "Finding Balance, Inspiring Change\n",
+            "images": {
+              "data": [
+                {
+                  "id": 3,
+                  "attributes": {
+                    "name": "hero3.jpg",
+                    "alternativeText": null,
+                    "caption": null,
+                    "width": 5000,
+                    "height": 3333,
+                    "formats": {
+                      "large": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720001486/large_hero3_72ffbc7098.jpg",
+                        "hash": "large_hero3_72ffbc7098",
+                        "mime": "image/jpeg",
+                        "name": "large_hero3.jpg",
+                        "path": null,
+                        "size": 93.76,
+                        "width": 1000,
+                        "height": 666,
+                        "provider_metadata": {
+                          "public_id": "large_hero3_72ffbc7098",
+                          "resource_type": "image"
+                        }
+                      },
+                      "small": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720001485/small_hero3_72ffbc7098.jpg",
+                        "hash": "small_hero3_72ffbc7098",
+                        "mime": "image/jpeg",
+                        "name": "small_hero3.jpg",
+                        "path": null,
+                        "size": 26.95,
+                        "width": 500,
+                        "height": 333,
+                        "provider_metadata": {
+                          "public_id": "small_hero3_72ffbc7098",
+                          "resource_type": "image"
+                        }
+                      },
+                      "medium": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720001486/medium_hero3_72ffbc7098.jpg",
+                        "hash": "medium_hero3_72ffbc7098",
+                        "mime": "image/jpeg",
+                        "name": "medium_hero3.jpg",
+                        "path": null,
+                        "size": 56.66,
+                        "width": 750,
+                        "height": 500,
+                        "provider_metadata": {
+                          "public_id": "medium_hero3_72ffbc7098",
+                          "resource_type": "image"
+                        }
+                      },
+                      "thumbnail": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720001485/thumbnail_hero3_72ffbc7098.jpg",
+                        "hash": "thumbnail_hero3_72ffbc7098",
+                        "mime": "image/jpeg",
+                        "name": "thumbnail_hero3.jpg",
+                        "path": null,
+                        "size": 7.39,
+                        "width": 234,
+                        "height": 156,
+                        "provider_metadata": {
+                          "public_id": "thumbnail_hero3_72ffbc7098",
+                          "resource_type": "image"
+                        }
+                      }
+                    },
+                    "hash": "hero3_72ffbc7098",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "size": 1444.95,
+                    "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720001486/hero3_72ffbc7098.jpg",
+                    "previewUrl": null,
+                    "provider": "cloudinary",
+                    "provider_metadata": {
+                      "public_id": "hero3_72ffbc7098",
+                      "resource_type": "image"
+                    },
+                    "createdAt": "2024-07-03T13:11:26.211Z",
+                    "updatedAt": "2024-07-04T15:26:30.767Z"
+                  }
+                },
+                {
+                  "id": 2,
+                  "attributes": {
+                    "name": "hero2.jpg",
+                    "alternativeText": null,
+                    "caption": null,
+                    "width": 7289,
+                    "height": 4862,
+                    "formats": {
+                      "large": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1719921543/large_hero2_1fba1a2a92.jpg",
+                        "hash": "large_hero2_1fba1a2a92",
+                        "mime": "image/jpeg",
+                        "name": "large_hero2.jpg",
+                        "path": null,
+                        "size": 80.58,
+                        "width": 1000,
+                        "height": 667,
+                        "provider_metadata": {
+                          "public_id": "large_hero2_1fba1a2a92",
+                          "resource_type": "image"
+                        }
+                      },
+                      "small": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1719921543/small_hero2_1fba1a2a92.jpg",
+                        "hash": "small_hero2_1fba1a2a92",
+                        "mime": "image/jpeg",
+                        "name": "small_hero2.jpg",
+                        "path": null,
+                        "size": 24.02,
+                        "width": 500,
+                        "height": 333,
+                        "provider_metadata": {
+                          "public_id": "small_hero2_1fba1a2a92",
+                          "resource_type": "image"
+                        }
+                      },
+                      "medium": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1719921543/medium_hero2_1fba1a2a92.jpg",
+                        "hash": "medium_hero2_1fba1a2a92",
+                        "mime": "image/jpeg",
+                        "name": "medium_hero2.jpg",
+                        "path": null,
+                        "size": 47.83,
+                        "width": 750,
+                        "height": 500,
+                        "provider_metadata": {
+                          "public_id": "medium_hero2_1fba1a2a92",
+                          "resource_type": "image"
+                        }
+                      },
+                      "thumbnail": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1719921543/thumbnail_hero2_1fba1a2a92.jpg",
+                        "hash": "thumbnail_hero2_1fba1a2a92",
+                        "mime": "image/jpeg",
+                        "name": "thumbnail_hero2.jpg",
+                        "path": null,
+                        "size": 6.85,
+                        "width": 234,
+                        "height": 156,
+                        "provider_metadata": {
+                          "public_id": "thumbnail_hero2_1fba1a2a92",
+                          "resource_type": "image"
+                        }
+                      }
+                    },
+                    "hash": "hero2_1fba1a2a92",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "size": 2300.69,
+                    "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1719921544/hero2_1fba1a2a92.jpg",
+                    "previewUrl": null,
+                    "provider": "cloudinary",
+                    "provider_metadata": {
+                      "public_id": "hero2_1fba1a2a92",
+                      "resource_type": "image"
+                    },
+                    "createdAt": "2024-07-02T14:59:03.321Z",
+                    "updatedAt": "2024-07-02T14:59:03.321Z"
+                  }
+                },
+                {
+                  "id": 1,
+                  "attributes": {
+                    "name": "hero1.jpg",
+                    "alternativeText": null,
+                    "caption": null,
+                    "width": 5907,
+                    "height": 3696,
+                    "formats": {
+                      "large": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1719921543/large_hero1_03056aeda1.jpg",
+                        "hash": "large_hero1_03056aeda1",
+                        "mime": "image/jpeg",
+                        "name": "large_hero1.jpg",
+                        "path": null,
+                        "size": 78.26,
+                        "width": 1000,
+                        "height": 626,
+                        "provider_metadata": {
+                          "public_id": "large_hero1_03056aeda1",
+                          "resource_type": "image"
+                        }
+                      },
+                      "small": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1719921543/small_hero1_03056aeda1.jpg",
+                        "hash": "small_hero1_03056aeda1",
+                        "mime": "image/jpeg",
+                        "name": "small_hero1.jpg",
+                        "path": null,
+                        "size": 24.44,
+                        "width": 500,
+                        "height": 313,
+                        "provider_metadata": {
+                          "public_id": "small_hero1_03056aeda1",
+                          "resource_type": "image"
+                        }
+                      },
+                      "medium": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1719921543/medium_hero1_03056aeda1.jpg",
+                        "hash": "medium_hero1_03056aeda1",
+                        "mime": "image/jpeg",
+                        "name": "medium_hero1.jpg",
+                        "path": null,
+                        "size": 47.86,
+                        "width": 750,
+                        "height": 470,
+                        "provider_metadata": {
+                          "public_id": "medium_hero1_03056aeda1",
+                          "resource_type": "image"
+                        }
+                      },
+                      "thumbnail": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1719921543/thumbnail_hero1_03056aeda1.jpg",
+                        "hash": "thumbnail_hero1_03056aeda1",
+                        "mime": "image/jpeg",
+                        "name": "thumbnail_hero1.jpg",
+                        "path": null,
+                        "size": 7.99,
+                        "width": 245,
+                        "height": 153,
+                        "provider_metadata": {
+                          "public_id": "thumbnail_hero1_03056aeda1",
+                          "resource_type": "image"
+                        }
+                      }
+                    },
+                    "hash": "hero1_03056aeda1",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "size": 1523.2,
+                    "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1719921543/hero1_03056aeda1.jpg",
+                    "previewUrl": null,
+                    "provider": "cloudinary",
+                    "provider_metadata": {
+                      "public_id": "hero1_03056aeda1",
+                      "resource_type": "image"
+                    },
+                    "createdAt": "2024-07-02T14:59:02.512Z",
+                    "updatedAt": "2024-07-02T14:59:02.512Z"
+                  }
+                }
+              ]
+            }
+          },
+          "aboutUs": {
+            "id": 1,
+            "smallTitle": "About Us",
+            "title": "Finding Balance, Inspiring Change",
+            "description": "The Equilibrum Foundation is a beacon of hope and support for those struggling with addiction in Romania. Founded by Andrei Argentis, our mission is to guide individuals and families through the challenging journey of recovery, fostering resilience and reclaiming lives from the grip of addiction.\n\nWe envision a world where addiction is not a life sentence but a challenge to overcome. At the Equilibrum Foundation, we believe in a holistic approach to treatment, addressing the physical, emotional, and social aspects of addiction to achieve long-lasting recovery and a balanced life.\n",
+            "image": {
+              "data": {
+                "id": 4,
+                "attributes": {
+                  "name": "about-us.jpg",
+                  "alternativeText": null,
+                  "caption": null,
+                  "width": 1792,
+                  "height": 2688,
+                  "formats": {
+                    "large": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720007926/large_about_us_3fdf3ad61f.jpg",
+                      "hash": "large_about_us_3fdf3ad61f",
+                      "mime": "image/jpeg",
+                      "name": "large_about-us.jpg",
+                      "path": null,
+                      "size": 158.41,
+                      "width": 667,
+                      "height": 1000,
+                      "provider_metadata": {
+                        "public_id": "large_about_us_3fdf3ad61f",
+                        "resource_type": "image"
+                      }
+                    },
+                    "small": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720007926/small_about_us_3fdf3ad61f.jpg",
+                      "hash": "small_about_us_3fdf3ad61f",
+                      "mime": "image/jpeg",
+                      "name": "small_about-us.jpg",
+                      "path": null,
+                      "size": 48.53,
+                      "width": 333,
+                      "height": 500,
+                      "provider_metadata": {
+                        "public_id": "small_about_us_3fdf3ad61f",
+                        "resource_type": "image"
+                      }
+                    },
+                    "medium": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720007926/medium_about_us_3fdf3ad61f.jpg",
+                      "hash": "medium_about_us_3fdf3ad61f",
+                      "mime": "image/jpeg",
+                      "name": "medium_about-us.jpg",
+                      "path": null,
+                      "size": 97.14,
+                      "width": 500,
+                      "height": 750,
+                      "provider_metadata": {
+                        "public_id": "medium_about_us_3fdf3ad61f",
+                        "resource_type": "image"
+                      }
+                    },
+                    "thumbnail": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720007925/thumbnail_about_us_3fdf3ad61f.jpg",
+                      "hash": "thumbnail_about_us_3fdf3ad61f",
+                      "mime": "image/jpeg",
+                      "name": "thumbnail_about-us.jpg",
+                      "path": null,
+                      "size": 6.2,
+                      "width": 104,
+                      "height": 156,
+                      "provider_metadata": {
+                        "public_id": "thumbnail_about_us_3fdf3ad61f",
+                        "resource_type": "image"
+                      }
+                    }
+                  },
+                  "hash": "about_us_3fdf3ad61f",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "size": 737.32,
+                  "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720007926/about_us_3fdf3ad61f.jpg",
+                  "previewUrl": null,
+                  "provider": "cloudinary",
+                  "provider_metadata": {
+                    "public_id": "about_us_3fdf3ad61f",
+                    "resource_type": "image"
+                  },
+                  "createdAt": "2024-07-03T14:58:46.509Z",
+                  "updatedAt": "2024-07-03T14:58:46.509Z"
+                }
+              }
+            }
+          },
+          "banner": {
+            "id": 1,
+            "title": "Your Path to Recovery",
+            "description": "Inspiring Change: Join the Fight Against Addiction",
+            "image": {
+              "data": {
+                "id": 5,
+                "attributes": {
+                  "name": "banner1.jpg",
+                  "alternativeText": null,
+                  "caption": null,
+                  "width": 1280,
+                  "height": 853,
+                  "formats": {
+                    "large": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720008360/large_banner1_2156f292c4.jpg",
+                      "hash": "large_banner1_2156f292c4",
+                      "mime": "image/jpeg",
+                      "name": "large_banner1.jpg",
+                      "path": null,
+                      "size": 76,
+                      "width": 1000,
+                      "height": 666,
+                      "provider_metadata": {
+                        "public_id": "large_banner1_2156f292c4",
+                        "resource_type": "image"
+                      }
+                    },
+                    "small": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720008360/small_banner1_2156f292c4.jpg",
+                      "hash": "small_banner1_2156f292c4",
+                      "mime": "image/jpeg",
+                      "name": "small_banner1.jpg",
+                      "path": null,
+                      "size": 23.25,
+                      "width": 500,
+                      "height": 333,
+                      "provider_metadata": {
+                        "public_id": "small_banner1_2156f292c4",
+                        "resource_type": "image"
+                      }
+                    },
+                    "medium": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720008360/medium_banner1_2156f292c4.jpg",
+                      "hash": "medium_banner1_2156f292c4",
+                      "mime": "image/jpeg",
+                      "name": "medium_banner1.jpg",
+                      "path": null,
+                      "size": 46.78,
+                      "width": 750,
+                      "height": 500,
+                      "provider_metadata": {
+                        "public_id": "medium_banner1_2156f292c4",
+                        "resource_type": "image"
+                      }
+                    },
+                    "thumbnail": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720008360/thumbnail_banner1_2156f292c4.jpg",
+                      "hash": "thumbnail_banner1_2156f292c4",
+                      "mime": "image/jpeg",
+                      "name": "thumbnail_banner1.jpg",
+                      "path": null,
+                      "size": 6.2,
+                      "width": 234,
+                      "height": 156,
+                      "provider_metadata": {
+                        "public_id": "thumbnail_banner1_2156f292c4",
+                        "resource_type": "image"
+                      }
+                    }
+                  },
+                  "hash": "banner1_2156f292c4",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "size": 113.41,
+                  "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720008360/banner1_2156f292c4.jpg",
+                  "previewUrl": null,
+                  "provider": "cloudinary",
+                  "provider_metadata": {
+                    "public_id": "banner1_2156f292c4",
+                    "resource_type": "image"
+                  },
+                  "createdAt": "2024-07-03T15:06:00.692Z",
+                  "updatedAt": "2024-07-03T15:06:00.692Z"
+                }
+              }
+            }
+          },
+          "takeAction": {
+            "id": 1,
+            "title": "Take Action",
+            "description": "Join the EquilibrumFoundation in our mission to support and inspire those struggling with addiction. Together, we can make a lasting impact.",
+            "items": [
+              {
+                "id": 2,
+                "title": "Assess",
+                "description": "Evaluate your unique needs."
+              },
+              {
+                "id": 1,
+                "title": "Heal",
+                "description": "Engage in holistic therapies."
+              },
+              {
+                "id": 3,
+                "title": "Support",
+                "description": "Build a strong support system."
+              }
+            ],
+            "images": {
+              "data": [
+                {
+                  "id": 6,
+                  "attributes": {
+                    "name": "take-action3.jpg",
+                    "alternativeText": null,
+                    "caption": null,
+                    "width": 5000,
+                    "height": 3333,
+                    "formats": {
+                      "large": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720009915/large_take_action3_f7275048e8.jpg",
+                        "hash": "large_take_action3_f7275048e8",
+                        "mime": "image/jpeg",
+                        "name": "large_take-action3.jpg",
+                        "path": null,
+                        "size": 76.29,
+                        "width": 1000,
+                        "height": 666,
+                        "provider_metadata": {
+                          "public_id": "large_take_action3_f7275048e8",
+                          "resource_type": "image"
+                        }
+                      },
+                      "small": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720009915/small_take_action3_f7275048e8.jpg",
+                        "hash": "small_take_action3_f7275048e8",
+                        "mime": "image/jpeg",
+                        "name": "small_take-action3.jpg",
+                        "path": null,
+                        "size": 27.37,
+                        "width": 500,
+                        "height": 333,
+                        "provider_metadata": {
+                          "public_id": "small_take_action3_f7275048e8",
+                          "resource_type": "image"
+                        }
+                      },
+                      "medium": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720009915/medium_take_action3_f7275048e8.jpg",
+                        "hash": "medium_take_action3_f7275048e8",
+                        "mime": "image/jpeg",
+                        "name": "medium_take-action3.jpg",
+                        "path": null,
+                        "size": 50,
+                        "width": 750,
+                        "height": 500,
+                        "provider_metadata": {
+                          "public_id": "medium_take_action3_f7275048e8",
+                          "resource_type": "image"
+                        }
+                      },
+                      "thumbnail": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720009915/thumbnail_take_action3_f7275048e8.jpg",
+                        "hash": "thumbnail_take_action3_f7275048e8",
+                        "mime": "image/jpeg",
+                        "name": "thumbnail_take-action3.jpg",
+                        "path": null,
+                        "size": 9.21,
+                        "width": 234,
+                        "height": 156,
+                        "provider_metadata": {
+                          "public_id": "thumbnail_take_action3_f7275048e8",
+                          "resource_type": "image"
+                        }
+                      }
+                    },
+                    "hash": "take_action3_f7275048e8",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "size": 1018.79,
+                    "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720009916/take_action3_f7275048e8.jpg",
+                    "previewUrl": null,
+                    "provider": "cloudinary",
+                    "provider_metadata": {
+                      "public_id": "take_action3_f7275048e8",
+                      "resource_type": "image"
+                    },
+                    "createdAt": "2024-07-03T15:31:56.406Z",
+                    "updatedAt": "2024-07-03T15:31:56.406Z"
+                  }
+                },
+                {
+                  "id": 7,
+                  "attributes": {
+                    "name": "take-action2.jpg",
+                    "alternativeText": null,
+                    "caption": null,
+                    "width": 5000,
+                    "height": 3333,
+                    "formats": {
+                      "large": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720009916/large_take_action2_119410abed.jpg",
+                        "hash": "large_take_action2_119410abed",
+                        "mime": "image/jpeg",
+                        "name": "large_take-action2.jpg",
+                        "path": null,
+                        "size": 112.78,
+                        "width": 1000,
+                        "height": 666,
+                        "provider_metadata": {
+                          "public_id": "large_take_action2_119410abed",
+                          "resource_type": "image"
+                        }
+                      },
+                      "small": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720009915/small_take_action2_119410abed.jpg",
+                        "hash": "small_take_action2_119410abed",
+                        "mime": "image/jpeg",
+                        "name": "small_take-action2.jpg",
+                        "path": null,
+                        "size": 33.48,
+                        "width": 500,
+                        "height": 333,
+                        "provider_metadata": {
+                          "public_id": "small_take_action2_119410abed",
+                          "resource_type": "image"
+                        }
+                      },
+                      "medium": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720009916/medium_take_action2_119410abed.jpg",
+                        "hash": "medium_take_action2_119410abed",
+                        "mime": "image/jpeg",
+                        "name": "medium_take-action2.jpg",
+                        "path": null,
+                        "size": 69.21,
+                        "width": 750,
+                        "height": 500,
+                        "provider_metadata": {
+                          "public_id": "medium_take_action2_119410abed",
+                          "resource_type": "image"
+                        }
+                      },
+                      "thumbnail": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720009915/thumbnail_take_action2_119410abed.jpg",
+                        "hash": "thumbnail_take_action2_119410abed",
+                        "mime": "image/jpeg",
+                        "name": "thumbnail_take-action2.jpg",
+                        "path": null,
+                        "size": 9.2,
+                        "width": 234,
+                        "height": 156,
+                        "provider_metadata": {
+                          "public_id": "thumbnail_take_action2_119410abed",
+                          "resource_type": "image"
+                        }
+                      }
+                    },
+                    "hash": "take_action2_119410abed",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "size": 1724,
+                    "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720009916/take_action2_119410abed.jpg",
+                    "previewUrl": null,
+                    "provider": "cloudinary",
+                    "provider_metadata": {
+                      "public_id": "take_action2_119410abed",
+                      "resource_type": "image"
+                    },
+                    "createdAt": "2024-07-03T15:31:56.749Z",
+                    "updatedAt": "2024-07-23T12:59:21.456Z"
+                  }
+                },
+                {
+                  "id": 8,
+                  "attributes": {
+                    "name": "take-action1.jpg",
+                    "alternativeText": null,
+                    "caption": null,
+                    "width": 6240,
+                    "height": 4160,
+                    "formats": {
+                      "large": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720009916/large_take_action1_bf89ee03d1.jpg",
+                        "hash": "large_take_action1_bf89ee03d1",
+                        "mime": "image/jpeg",
+                        "name": "large_take-action1.jpg",
+                        "path": null,
+                        "size": 100.88,
+                        "width": 1000,
+                        "height": 667,
+                        "provider_metadata": {
+                          "public_id": "large_take_action1_bf89ee03d1",
+                          "resource_type": "image"
+                        }
+                      },
+                      "small": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720009916/small_take_action1_bf89ee03d1.jpg",
+                        "hash": "small_take_action1_bf89ee03d1",
+                        "mime": "image/jpeg",
+                        "name": "small_take-action1.jpg",
+                        "path": null,
+                        "size": 31.15,
+                        "width": 500,
+                        "height": 333,
+                        "provider_metadata": {
+                          "public_id": "small_take_action1_bf89ee03d1",
+                          "resource_type": "image"
+                        }
+                      },
+                      "medium": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720009916/medium_take_action1_bf89ee03d1.jpg",
+                        "hash": "medium_take_action1_bf89ee03d1",
+                        "mime": "image/jpeg",
+                        "name": "medium_take-action1.jpg",
+                        "path": null,
+                        "size": 62.24,
+                        "width": 750,
+                        "height": 500,
+                        "provider_metadata": {
+                          "public_id": "medium_take_action1_bf89ee03d1",
+                          "resource_type": "image"
+                        }
+                      },
+                      "thumbnail": {
+                        "ext": ".jpg",
+                        "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720009915/thumbnail_take_action1_bf89ee03d1.jpg",
+                        "hash": "thumbnail_take_action1_bf89ee03d1",
+                        "mime": "image/jpeg",
+                        "name": "thumbnail_take-action1.jpg",
+                        "path": null,
+                        "size": 9.41,
+                        "width": 234,
+                        "height": 156,
+                        "provider_metadata": {
+                          "public_id": "thumbnail_take_action1_bf89ee03d1",
+                          "resource_type": "image"
+                        }
+                      }
+                    },
+                    "hash": "take_action1_bf89ee03d1",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "size": 2902.37,
+                    "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720009917/take_action1_bf89ee03d1.jpg",
+                    "previewUrl": null,
+                    "provider": "cloudinary",
+                    "provider_metadata": {
+                      "public_id": "take_action1_bf89ee03d1",
+                      "resource_type": "image"
+                    },
+                    "createdAt": "2024-07-03T15:31:57.384Z",
+                    "updatedAt": "2024-07-03T15:31:57.384Z"
+                  }
+                }
+              ]
+            }
+          },
+          "stories": {
+            "id": 1,
+            "title": "Success Stories: Inspiring Journeys to Recovery",
+            "description": "Discover how the Equilibrum Foundation has helped individuals reclaim their lives from addiction.",
+            "items": [
+              {
+                "id": 1,
+                "text": "Before finding the Equilibrum Foundation, I felt lost and hopeless. Their holistic approach and compassionate support helped me reclaim my life. Today, I am proud to say I am addiction-free and living a balanced, fulfilling life.",
+                "name": "Maria D.",
+                "location": "Tg.Mures"
+              },
+              {
+                "id": 2,
+                "text": "The Equilibrum Foundation saved my life. Their personalized treatment plan and ongoing support gave me the tools I needed to overcome my addiction. I am forever grateful for the new beginning they provided me.",
+                "name": "Alex P.",
+                "location": "Tg. Mures"
+              }
+            ]
+          },
+          "forYou": {
+            "id": 1,
+            "smallTitle": "Comprehensive Support",
+            "title": "Community and Family Programs",
+            "items": [
+              {
+                "id": 3,
+                "text": "Personalized recovery plans"
+              },
+              {
+                "id": 1,
+                "text": "Physical, emotional, and social healing"
+              },
+              {
+                "id": 2,
+                "text": "Dedicated support for individuals and families"
+              },
+              {
+                "id": 4,
+                "text": "Family counseling and support groups"
+              }
+            ]
+          },
+          "contact": {
+            "id": 1,
+            "text": "Get in Touch: Contact Us Today for Support and Guidance",
+            "title": "Contact Us",
+            "titleTwo": "Have inquiries? Reach out via message",
+            "button": "Send Message",
+            "inputFields": [
+              {
+                "id": 3,
+                "name": "Name",
+                "placeholder": "Your name"
+              },
+              {
+                "id": 2,
+                "name": "Email",
+                "placeholder": "Your email"
+              },
+              {
+                "id": 1,
+                "name": "Message",
+                "placeholder": "Your message"
+              }
+            ],
+            "contactItems": [
+              {
+                "id": 4,
+                "title": "Our Address",
+                "text": "Cluj-Napoca, Romania"
+              },
+              {
+                "id": 6,
+                "title": "Call Us",
+                "text": "+40749713794"
+              },
+              {
+                "id": 5,
+                "title": "Send Email",
+                "text": "office@retrophoneworld.com"
+              }
+            ]
+          },
+          "seo": {
+            "id": 2,
+            "metaTitle": "Equilibrum Foundation Home page",
+            "metaDescription": "Discover the world of Equilibrum, where achieving inner balance and harmony is the goal. We help you find your inner peace.",
+            "keywords": "Equilibrum, inner balance, harmony, meditation, yoga practices, lifestyle advice, inner peace, relaxation, stress management, mindfulness, mental health, physical health, wellness, spiritual growth, conscious living, energy levels, mental well-being, positive thinking, self-awareness, healthy lifestyle",
+            "metaRobots": null,
+            "structuredData": null,
+            "metaViewport": null,
+            "canonicalURL": null,
+            "metaImage": {
+              "data": null
+            },
+            "metaSocial": [
+              {
+                "id": 2,
+                "socialNetwork": "Facebook",
+                "title": "facebook",
+                "description": "facebook",
+                "image": {
+                  "data": null
+                }
+              }
+            ]
+          },
+          "localizations": {
+            "data": [
+              {
+                "id": 2,
+                "attributes": {
+                  "createdAt": "2024-07-19T10:45:43.872Z",
+                  "updatedAt": "2024-07-22T14:18:39.358Z",
+                  "publishedAt": "2024-07-19T10:46:20.416Z",
+                  "locale": "ro"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "meta": {}
+    },
+    "cookie-page": {
+      "data": {
+        "id": 1,
+        "attributes": {
+          "createdAt": "2024-07-04T15:24:06.483Z",
+          "updatedAt": "2024-07-22T14:21:40.252Z",
+          "publishedAt": "2024-07-04T15:34:32.486Z",
+          "locale": "en",
+          "cookiePage": {
+            "id": 1,
+            "title": "Cookie Policy",
+            "text": "Last updated: [Date]\n\n[Your Company Name] (\"we,\" \"us,\" or \"our\") uses cookies on [Your Website] (the \"Service\"). By using the Service, you consent to the use of cookies.\n\nWhat are cookies?\n\nCookies are small pieces of text sent to your web browser by a website you visit. A cookie file is stored in your web browser and allows the Service or a third party to recognize you and make your next visit easier and the Service more useful to you.\n\nHow [Your Company Name] uses cookies\n\nWhen you use and access the Service, we may place a number of cookies files in your web browser. We use cookies for the following purposes:\n\nTo enable certain functions of the Service\nTo provide analytics\nTo store your preferences\nTo enable advertisements delivery, including behavioral advertising\nWe use both session and persistent cookies on the Service, and we use different types of cookies to run the Service:\n\nEssential cookies: We may use essential cookies to authenticate users and prevent fraudulent use of user accounts.\nPreferences cookies: We may use preferences cookies to remember information that changes the way the Service behaves or looks, such as the \"remember me\" functionality of a registered user or a user's language preference.\nAnalytics cookies: We may use analytics cookies to track information about how the Service is used so that we can make improvements. We may also use analytics cookies to test new advertisements, pages, features, or new functionality of the Service to see how our users react to them.\nAdvertising cookies: These types of cookies are used to deliver advertisements on and through the Service and to track the performance of these advertisements. These cookies may be used to remember websites you have visited, and we may share this information with third parties, such as advertisers.\nThird-party cookies\n\nIn addition to our own cookies, we may also use various third parties' cookies to report usage statistics of the Service, deliver advertisements on and through the Service, and so on.\n\nYour choices regarding cookies\n\nIf you'd like to delete cookies or instruct your web browser to delete or refuse cookies, please visit the help pages of your web browser. Please note, however, that if you delete cookies or refuse to accept them, you might not be able to use all of the features we offer, you may not be able to store your preferences, and some of our pages might not display properly.\n\nFor the Chrome web browser, please visit this page from Google: https://support.google.com/accounts/answer/32050\nFor the Internet Explorer web browser, please visit this page from Microsoft: http://support.microsoft.com/kb/278835\nFor the Firefox web browser, please visit this page from Mozilla: https://support.mozilla.org/en-US/kb/delete-cookies-remove-info-websites-stored\nFor the Safari web browser, please visit this page from Apple: https://support.apple.com/guide/safari/manage-cookies-and-website-data-sfri11471/mac\nWhere can you find more information about cookies?\n\nYou can learn more about cookies and the following third-party websites:\n\nAllAboutCookies: http://www.allaboutcookies.org/\nNetwork Advertising Initiative: http://www.networkadvertising.org/\nContact Us\n\nIf you have any questions about this Cookie Policy, please contact us:\n\nBy email: [Your Email Address]\nBy visiting this page on our website: [Your Website Contact Page URL]\nBy phone number: [Your Phone Number]\nBy mail: [Your Physical Address]\nChanges to this Cookie Policy\n\nWe may update our Cookie Policy from time to time. We will notify you of any changes by posting the new Cookie Policy on this page. You are advised to review this Cookie Policy periodically for any changes. Changes to this Cookie Policy are effective when they are posted on this page.",
+            "image": {
+              "data": {
+                "id": 5,
+                "attributes": {
+                  "name": "banner1.jpg",
+                  "alternativeText": null,
+                  "caption": null,
+                  "width": 1280,
+                  "height": 853,
+                  "formats": {
+                    "large": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720008360/large_banner1_2156f292c4.jpg",
+                      "hash": "large_banner1_2156f292c4",
+                      "mime": "image/jpeg",
+                      "name": "large_banner1.jpg",
+                      "path": null,
+                      "size": 76,
+                      "width": 1000,
+                      "height": 666,
+                      "provider_metadata": {
+                        "public_id": "large_banner1_2156f292c4",
+                        "resource_type": "image"
+                      }
+                    },
+                    "small": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720008360/small_banner1_2156f292c4.jpg",
+                      "hash": "small_banner1_2156f292c4",
+                      "mime": "image/jpeg",
+                      "name": "small_banner1.jpg",
+                      "path": null,
+                      "size": 23.25,
+                      "width": 500,
+                      "height": 333,
+                      "provider_metadata": {
+                        "public_id": "small_banner1_2156f292c4",
+                        "resource_type": "image"
+                      }
+                    },
+                    "medium": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720008360/medium_banner1_2156f292c4.jpg",
+                      "hash": "medium_banner1_2156f292c4",
+                      "mime": "image/jpeg",
+                      "name": "medium_banner1.jpg",
+                      "path": null,
+                      "size": 46.78,
+                      "width": 750,
+                      "height": 500,
+                      "provider_metadata": {
+                        "public_id": "medium_banner1_2156f292c4",
+                        "resource_type": "image"
+                      }
+                    },
+                    "thumbnail": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720008360/thumbnail_banner1_2156f292c4.jpg",
+                      "hash": "thumbnail_banner1_2156f292c4",
+                      "mime": "image/jpeg",
+                      "name": "thumbnail_banner1.jpg",
+                      "path": null,
+                      "size": 6.2,
+                      "width": 234,
+                      "height": 156,
+                      "provider_metadata": {
+                        "public_id": "thumbnail_banner1_2156f292c4",
+                        "resource_type": "image"
+                      }
+                    }
+                  },
+                  "hash": "banner1_2156f292c4",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "size": 113.41,
+                  "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720008360/banner1_2156f292c4.jpg",
+                  "previewUrl": null,
+                  "provider": "cloudinary",
+                  "provider_metadata": {
+                    "public_id": "banner1_2156f292c4",
+                    "resource_type": "image"
+                  },
+                  "createdAt": "2024-07-03T15:06:00.692Z",
+                  "updatedAt": "2024-07-03T15:06:00.692Z"
+                }
+              }
+            }
+          },
+          "seo": {
+            "id": 5,
+            "metaTitle": "Equilibrium Foundation Cookie page",
+            "metaDescription": "Discover the world of Equilibrium, where achieving inner balance and harmony is the goal. We help you find your inner peace.",
+            "keywords": "Equilibrium, inner balance, harmony, meditation, yoga practices, lifestyle advice, inner peace, relaxation, stress management, mindfulness, mental health, physical health, wellness, spiritual growth, conscious living, energy levels, mental well-being, positive thinking, self-awareness, healthy lifestyle",
+            "metaRobots": null,
+            "structuredData": null,
+            "metaViewport": null,
+            "canonicalURL": null,
+            "metaImage": {
+              "data": null
+            },
+            "metaSocial": []
+          },
+          "localizations": {
+            "data": [
+              {
+                "id": 2,
+                "attributes": {
+                  "createdAt": "2024-07-18T11:16:12.148Z",
+                  "updatedAt": "2024-07-22T14:20:40.196Z",
+                  "publishedAt": "2024-07-18T11:17:32.441Z",
+                  "locale": "ro"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "meta": {}
+    },
+    "terms-and-conditions-page": {
+      "data": {
+        "id": 1,
+        "attributes": {
+          "createdAt": "2024-07-04T15:26:04.015Z",
+          "updatedAt": "2024-07-22T14:23:26.720Z",
+          "publishedAt": "2024-07-08T11:32:52.158Z",
+          "locale": "en",
+          "termsAndConditions": {
+            "id": 1,
+            "title": "Terms And Conditions",
+            "text": "Last updated: [Date]\n\nPlease read these Terms and Conditions (\"Terms\", \"Terms and Conditions\") carefully before using the [Your Website] website (the \"Service\") operated by [Your Company Name] (\"us\", \"we\", \"us\", or \"our\").\n\n1. Acceptance of Terms\n\nBy accessing or using our Service, you agree to be bound by these Terms. If you do not agree to any part of the Terms, then you do not have permission to access the Service.\n\n2. Accounts\n\nWhen you create an account with us, you must provide us with accurate, complete and current information at all times. Failure to do so constitutes a breach of the Terms, which may result in immediate termination of your account on our Service.\n\nYou are responsible for safeguarding the password you use to access the Service and for any activities or actions performed with your password, whether your password is on our Service or a third-party service.\n\nYou agree not to disclose your password to any third party. You must notify us immediately upon becoming aware of any breach of security or unauthorized use of your account.\n\n3. Intellectual Property\n\nThe Service and its original content, features and functionality are and shall remain the exclusive property of [Your Company Name] and its licensors. The Service is protected by copyright, trademark and other state laws",
+            "image": {
+              "data": {
+                "id": 9,
+                "attributes": {
+                  "name": "pexels-photo-3889725.jpg",
+                  "alternativeText": null,
+                  "caption": null,
+                  "width": 1125,
+                  "height": 750,
+                  "formats": {
+                    "large": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720095945/large_pexels_photo_3889725_71116c9057.jpg",
+                      "hash": "large_pexels_photo_3889725_71116c9057",
+                      "mime": "image/jpeg",
+                      "name": "large_pexels-photo-3889725.jpg",
+                      "path": null,
+                      "size": 62.23,
+                      "width": 1000,
+                      "height": 667,
+                      "provider_metadata": {
+                        "public_id": "large_pexels_photo_3889725_71116c9057",
+                        "resource_type": "image"
+                      }
+                    },
+                    "small": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720095945/small_pexels_photo_3889725_71116c9057.jpg",
+                      "hash": "small_pexels_photo_3889725_71116c9057",
+                      "mime": "image/jpeg",
+                      "name": "small_pexels-photo-3889725.jpg",
+                      "path": null,
+                      "size": 22.59,
+                      "width": 500,
+                      "height": 333,
+                      "provider_metadata": {
+                        "public_id": "small_pexels_photo_3889725_71116c9057",
+                        "resource_type": "image"
+                      }
+                    },
+                    "medium": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720095945/medium_pexels_photo_3889725_71116c9057.jpg",
+                      "hash": "medium_pexels_photo_3889725_71116c9057",
+                      "mime": "image/jpeg",
+                      "name": "medium_pexels-photo-3889725.jpg",
+                      "path": null,
+                      "size": 41.1,
+                      "width": 750,
+                      "height": 500,
+                      "provider_metadata": {
+                        "public_id": "medium_pexels_photo_3889725_71116c9057",
+                        "resource_type": "image"
+                      }
+                    },
+                    "thumbnail": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720095945/thumbnail_pexels_photo_3889725_71116c9057.jpg",
+                      "hash": "thumbnail_pexels_photo_3889725_71116c9057",
+                      "mime": "image/jpeg",
+                      "name": "thumbnail_pexels-photo-3889725.jpg",
+                      "path": null,
+                      "size": 7.71,
+                      "width": 234,
+                      "height": 156,
+                      "provider_metadata": {
+                        "public_id": "thumbnail_pexels_photo_3889725_71116c9057",
+                        "resource_type": "image"
+                      }
+                    }
+                  },
+                  "hash": "pexels_photo_3889725_71116c9057",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "size": 62.33,
+                  "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720095945/pexels_photo_3889725_71116c9057.jpg",
+                  "previewUrl": null,
+                  "provider": "cloudinary",
+                  "provider_metadata": {
+                    "public_id": "pexels_photo_3889725_71116c9057",
+                    "resource_type": "image"
+                  },
+                  "createdAt": "2024-07-04T15:25:44.818Z",
+                  "updatedAt": "2024-07-04T15:25:44.818Z"
+                }
+              }
+            }
+          },
+          "seo": {
+            "id": 1,
+            "metaTitle": "Equilibrium Foundation Terms And Conditions page",
+            "metaDescription": "Discover the world of Equilibrium, where achieving inner balance and harmony is the goal. We help you find your inner peace.",
+            "keywords": "Equilibrium, inner balance, harmony, meditation, yoga practices, lifestyle advice, inner peace, relaxation, stress management, mindfulness, mental health, physical health, wellness, spiritual growth, conscious living, energy levels, mental well-being, positive thinking, self-awareness, healthy lifestyle",
+            "metaRobots": null,
+            "structuredData": null,
+            "metaViewport": null,
+            "canonicalURL": null,
+            "metaImage": {
+              "data": null
+            },
+            "metaSocial": [
+              {
+                "id": 1,
+                "socialNetwork": "Facebook",
+                "title": "facebook",
+                "description": "facebook",
+                "image": {
+                  "data": null
+                }
+              }
+            ]
+          },
+          "localizations": {
+            "data": [
+              {
+                "id": 2,
+                "attributes": {
+                  "createdAt": "2024-07-19T10:37:41.258Z",
+                  "updatedAt": "2024-07-22T14:25:34.386Z",
+                  "publishedAt": "2024-07-19T10:39:22.212Z",
+                  "locale": "ro"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "meta": {}
+    },
+    "privacy-policy": {
+      "data": {
+        "id": 1,
+        "attributes": {
+          "createdAt": "2024-07-04T15:30:21.246Z",
+          "updatedAt": "2024-07-22T14:22:31.466Z",
+          "publishedAt": "2024-07-08T11:33:02.403Z",
+          "locale": "en",
+          "privacyPolicy": {
+            "id": 1,
+            "title": "Privacy Policy",
+            "text": "Last updated: [Date]\n\n\n[Your Company Name] (\"we,\" \"us,\" or \"our\") uses cookies on [Your Website] (the \"Service\"). By using the Service, you consent to the use of cookies.\n\nWhat are cookies?\n\nCookies are small pieces of text sent to your web browser by a website you visit. A cookie file is stored in your web browser and allows the Service or a third party to recognize you and make your next visit easier and the Service more useful to you.\n\nHow [Your Company Name] uses cookies\n\nWhen you use and access the Service, we may place a number of cookies files in your web browser. We use cookies for the following purposes:\n\nTo enable certain functions of the Service\n\nTo provide analytics\n\nTo store your preferences\n\nTo enable advertisements delivery, including behavioral advertising\n\n\nWe use both session and persistent cookies on the Service, and we use different types of cookies to run the Service:\n\nEssential cookies: We may use essential cookies to authenticate users and prevent fraudulent use of user accounts.\nPreferences cookies: We may use preferences cookies to remember information that changes the way the Service behaves or looks, such as the \"remember me\" functionality of a registered user or a user's language preference.\n\n\nAnalytics cookies: We may use analytics cookies to track information about how the Service is used so that we can make improvements. We may also use analytics cookies to test new advertisements, pages, features, or new functionality of the Service to see how our users react to them.\n\nAdvertising cookies: These types of cookies are used to deliver advertisements on and through the Service and to track the performance of these advertisements. These cookies may be used to remember websites you have visited, and we may share this information with third parties, such as advertisers.\n\nThird-party cookies\nIn addition to our own cookies, we may also use various third parties' cookies to report usage statistics of the Service, deliver advertisements on and through the Service, and so on.\n\n\nYour choices regarding cookies\n\nIf you'd like to delete cookies or instruct your web browser to delete or refuse cookies, please visit the help pages of your web browser. Please note, however, that if you delete cookies or refuse to accept them, you might not be able to use all of the features we offer, you may not be able to store your preferences, and some of our pages might not display properly.\n\nFor the Chrome web browser, please visit this page from Google: https://support.google.com/accounts/answer/32050\n\nFor the Internet Explorer web browser, please visit this page from Microsoft: http://support.microsoft.com/kb/278835\n\nFor the Firefox web browser, please visit this page from Mozilla: https://support.mozilla.org/en-US/kb/delete-cookies-remove-info-websites-stored\n\n\nFor the Safari web browser, please visit this page from Apple: https://support.apple.com/guide/safari/manage-cookies-and-website-data-sfri11471/mac\n\n\nWhere can you find more information about cookies?\n\nYou can learn more about cookies and the following third-party websites:\nAllAboutCookies: http://www.allaboutcookies.org/\n\nNetwork Advertising Initiative: http://www.networkadvertising.org/\n\nContact Us\nIf you have any questions about this Cookie Policy, please contact us:\n\nBy email: [Your Email Address]\n\n\nBy visiting this page on our website: [Your Website Contact Page URL]\n\nBy phone number: [Your Phone Number]\n\nBy mail: [Your Physical Address]\n\n\nChanges to this Cookie Policy\n\nWe may update our Cookie Policy from time to time. We will notify you of any changes by posting the new Cookie Policy on this page. You are advised to review this Cookie Policy periodically for any changes. Changes to this Cookie Policy are effective when they are posted on this page.\n",
+            "image": {
+              "data": {
+                "id": 10,
+                "attributes": {
+                  "name": "banner-privacy.jpg",
+                  "alternativeText": null,
+                  "caption": null,
+                  "width": 4256,
+                  "height": 2832,
+                  "formats": {
+                    "large": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720096156/large_banner_privacy_93d1b92056.jpg",
+                      "hash": "large_banner_privacy_93d1b92056",
+                      "mime": "image/jpeg",
+                      "name": "large_banner-privacy.jpg",
+                      "path": null,
+                      "size": 108.67,
+                      "width": 1000,
+                      "height": 665,
+                      "provider_metadata": {
+                        "public_id": "large_banner_privacy_93d1b92056",
+                        "resource_type": "image"
+                      }
+                    },
+                    "small": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720096156/small_banner_privacy_93d1b92056.jpg",
+                      "hash": "small_banner_privacy_93d1b92056",
+                      "mime": "image/jpeg",
+                      "name": "small_banner-privacy.jpg",
+                      "path": null,
+                      "size": 29.34,
+                      "width": 500,
+                      "height": 333,
+                      "provider_metadata": {
+                        "public_id": "small_banner_privacy_93d1b92056",
+                        "resource_type": "image"
+                      }
+                    },
+                    "medium": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720096156/medium_banner_privacy_93d1b92056.jpg",
+                      "hash": "medium_banner_privacy_93d1b92056",
+                      "mime": "image/jpeg",
+                      "name": "medium_banner-privacy.jpg",
+                      "path": null,
+                      "size": 61.98,
+                      "width": 750,
+                      "height": 499,
+                      "provider_metadata": {
+                        "public_id": "medium_banner_privacy_93d1b92056",
+                        "resource_type": "image"
+                      }
+                    },
+                    "thumbnail": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720096156/thumbnail_banner_privacy_93d1b92056.jpg",
+                      "hash": "thumbnail_banner_privacy_93d1b92056",
+                      "mime": "image/jpeg",
+                      "name": "thumbnail_banner-privacy.jpg",
+                      "path": null,
+                      "size": 7.73,
+                      "width": 234,
+                      "height": 156,
+                      "provider_metadata": {
+                        "public_id": "thumbnail_banner_privacy_93d1b92056",
+                        "resource_type": "image"
+                      }
+                    }
+                  },
+                  "hash": "banner_privacy_93d1b92056",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "size": 1924.16,
+                  "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720096156/banner_privacy_93d1b92056.jpg",
+                  "previewUrl": null,
+                  "provider": "cloudinary",
+                  "provider_metadata": {
+                    "public_id": "banner_privacy_93d1b92056",
+                    "resource_type": "image"
+                  },
+                  "createdAt": "2024-07-04T15:29:16.204Z",
+                  "updatedAt": "2024-07-04T15:29:16.204Z"
+                }
+              }
+            }
+          },
+          "seo": {
+            "id": 6,
+            "metaTitle": "Equilibrium Foundation Privacy Policy page",
+            "metaDescription": "Discover the world of Equilibrium, where achieving inner balance and harmony is the goal. We help you find your inner peace.",
+            "keywords": "Equilibrium, inner balance, harmony, meditation, yoga practices, lifestyle advice, inner peace, relaxation, stress management, mindfulness, mental health, physical health, wellness, spiritual growth, conscious living, energy levels, mental well-being, positive thinking, self-awareness, healthy lifestyle",
+            "metaRobots": null,
+            "structuredData": null,
+            "metaViewport": null,
+            "canonicalURL": null,
+            "metaImage": {
+              "data": null
+            },
+            "metaSocial": []
+          },
+          "localizations": {
+            "data": [
+              {
+                "id": 2,
+                "attributes": {
+                  "createdAt": "2024-07-19T10:29:39.980Z",
+                  "updatedAt": "2024-07-22T14:26:29.620Z",
+                  "publishedAt": "2024-07-19T10:40:16.974Z",
+                  "locale": "ro"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "meta": {}
+    },
+    "thank-you-page": {
+      "data": {
+        "id": 1,
+        "attributes": {
+          "createdAt": "2024-07-04T15:26:46.836Z",
+          "updatedAt": "2024-07-19T10:25:22.916Z",
+          "publishedAt": "2024-07-08T11:33:15.788Z",
+          "locale": "en",
+          "thankYouPage": {
+            "id": 1,
+            "title": "Thank You",
+            "text": "Thank you for reaching out.",
+            "button": "Back to home",
+            "image": {
+              "data": {
+                "id": 3,
+                "attributes": {
+                  "name": "hero3.jpg",
+                  "alternativeText": null,
+                  "caption": null,
+                  "width": 5000,
+                  "height": 3333,
+                  "formats": {
+                    "large": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720001486/large_hero3_72ffbc7098.jpg",
+                      "hash": "large_hero3_72ffbc7098",
+                      "mime": "image/jpeg",
+                      "name": "large_hero3.jpg",
+                      "path": null,
+                      "size": 93.76,
+                      "width": 1000,
+                      "height": 666,
+                      "provider_metadata": {
+                        "public_id": "large_hero3_72ffbc7098",
+                        "resource_type": "image"
+                      }
+                    },
+                    "small": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720001485/small_hero3_72ffbc7098.jpg",
+                      "hash": "small_hero3_72ffbc7098",
+                      "mime": "image/jpeg",
+                      "name": "small_hero3.jpg",
+                      "path": null,
+                      "size": 26.95,
+                      "width": 500,
+                      "height": 333,
+                      "provider_metadata": {
+                        "public_id": "small_hero3_72ffbc7098",
+                        "resource_type": "image"
+                      }
+                    },
+                    "medium": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720001486/medium_hero3_72ffbc7098.jpg",
+                      "hash": "medium_hero3_72ffbc7098",
+                      "mime": "image/jpeg",
+                      "name": "medium_hero3.jpg",
+                      "path": null,
+                      "size": 56.66,
+                      "width": 750,
+                      "height": 500,
+                      "provider_metadata": {
+                        "public_id": "medium_hero3_72ffbc7098",
+                        "resource_type": "image"
+                      }
+                    },
+                    "thumbnail": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720001485/thumbnail_hero3_72ffbc7098.jpg",
+                      "hash": "thumbnail_hero3_72ffbc7098",
+                      "mime": "image/jpeg",
+                      "name": "thumbnail_hero3.jpg",
+                      "path": null,
+                      "size": 7.39,
+                      "width": 234,
+                      "height": 156,
+                      "provider_metadata": {
+                        "public_id": "thumbnail_hero3_72ffbc7098",
+                        "resource_type": "image"
+                      }
+                    }
+                  },
+                  "hash": "hero3_72ffbc7098",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "size": 1444.95,
+                  "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720001486/hero3_72ffbc7098.jpg",
+                  "previewUrl": null,
+                  "provider": "cloudinary",
+                  "provider_metadata": {
+                    "public_id": "hero3_72ffbc7098",
+                    "resource_type": "image"
+                  },
+                  "createdAt": "2024-07-03T13:11:26.211Z",
+                  "updatedAt": "2024-07-04T15:26:30.767Z"
+                }
+              }
+            }
+          },
+          "seo": null,
+          "localizations": {
+            "data": [
+              {
+                "id": 2,
+                "attributes": {
+                  "createdAt": "2024-07-19T10:25:20.730Z",
+                  "updatedAt": "2024-07-19T10:38:56.530Z",
+                  "publishedAt": "2024-07-19T10:38:55.991Z",
+                  "locale": "ro"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "meta": {}
+    },
+    "support-page": {
+      "data": {
+        "id": 1,
+        "attributes": {
+          "createdAt": "2024-07-23T13:00:37.095Z",
+          "updatedAt": "2024-07-26T10:23:50.243Z",
+          "publishedAt": "2024-07-23T13:11:37.633Z",
+          "locale": "en",
+          "support": {
+            "id": 1,
+            "description": "Retro Phone World, the interactive theme park, has the largest collection of cell phones in the world, a world record certified by Guinness World Records. Today, our collection has grown to over 15,000 cell phones, including over 350 prototypes and models unique in the world.\nThe Equilibrum Foundation offers three simple and effective ways in which you can support us: direct donations, income tax redistribution and corporate sponsorships.Fundația Equilibrum Foundation oferă trei metode simple și eficiente prin care ne puteți susține: donații directe, redistribuirea impozitului pe profit și sponsorizări corporative.",
+            "title": "Support Retro Phone World through the Equilibrum Foundation",
+            "image": {
+              "data": {
+                "id": 7,
+                "attributes": {
+                  "name": "take-action2.jpg",
+                  "alternativeText": null,
+                  "caption": null,
+                  "width": 5000,
+                  "height": 3333,
+                  "formats": {
+                    "large": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720009916/large_take_action2_119410abed.jpg",
+                      "hash": "large_take_action2_119410abed",
+                      "mime": "image/jpeg",
+                      "name": "large_take-action2.jpg",
+                      "path": null,
+                      "size": 112.78,
+                      "width": 1000,
+                      "height": 666,
+                      "provider_metadata": {
+                        "public_id": "large_take_action2_119410abed",
+                        "resource_type": "image"
+                      }
+                    },
+                    "small": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720009915/small_take_action2_119410abed.jpg",
+                      "hash": "small_take_action2_119410abed",
+                      "mime": "image/jpeg",
+                      "name": "small_take-action2.jpg",
+                      "path": null,
+                      "size": 33.48,
+                      "width": 500,
+                      "height": 333,
+                      "provider_metadata": {
+                        "public_id": "small_take_action2_119410abed",
+                        "resource_type": "image"
+                      }
+                    },
+                    "medium": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720009916/medium_take_action2_119410abed.jpg",
+                      "hash": "medium_take_action2_119410abed",
+                      "mime": "image/jpeg",
+                      "name": "medium_take-action2.jpg",
+                      "path": null,
+                      "size": 69.21,
+                      "width": 750,
+                      "height": 500,
+                      "provider_metadata": {
+                        "public_id": "medium_take_action2_119410abed",
+                        "resource_type": "image"
+                      }
+                    },
+                    "thumbnail": {
+                      "ext": ".jpg",
+                      "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720009915/thumbnail_take_action2_119410abed.jpg",
+                      "hash": "thumbnail_take_action2_119410abed",
+                      "mime": "image/jpeg",
+                      "name": "thumbnail_take-action2.jpg",
+                      "path": null,
+                      "size": 9.2,
+                      "width": 234,
+                      "height": 156,
+                      "provider_metadata": {
+                        "public_id": "thumbnail_take_action2_119410abed",
+                        "resource_type": "image"
+                      }
+                    }
+                  },
+                  "hash": "take_action2_119410abed",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "size": 1724,
+                  "url": "https://res.cloudinary.com/da8tjmapv/image/upload/v1720009916/take_action2_119410abed.jpg",
+                  "previewUrl": null,
+                  "provider": "cloudinary",
+                  "provider_metadata": {
+                    "public_id": "take_action2_119410abed",
+                    "resource_type": "image"
+                  },
+                  "createdAt": "2024-07-03T15:31:56.749Z",
+                  "updatedAt": "2024-07-23T12:59:21.456Z"
+                }
+              }
+            },
+            "card": [
+              {
+                "id": 1,
+                "title": "Donate directly",
+                "description": "Contribute directly to support Retro Phone World with a financial donation."
+              },
+              {
+                "id": 2,
+                "title": "Corporate tax redistribution",
+                "description": "Simple way to support our initiatives at no extra cost to your company."
+              },
+              {
+                "id": 3,
+                "title": "Sponsorship",
+                "description": "Become an official partner of Retro Phone World through corporate sponsorship."
+              }
+            ]
+          },
+          "localizations": {
+            "data": [
+              {
+                "id": 2,
+                "attributes": {
+                  "createdAt": "2024-07-23T14:19:39.203Z",
+                  "updatedAt": "2024-07-26T10:34:49.507Z",
+                  "publishedAt": "2024-07-26T10:34:48.967Z",
+                  "locale": "ro"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "meta": {}
+    },
+    "contacts": {
+      "data": [
+        {
+          "id": 1,
+          "attributes": {
+            "name": "Andor",
+            "email": "pal.andor71@gmail.com",
+            "message": "Helloö",
+            "createdAt": "2024-07-08T12:44:36.165Z",
+            "updatedAt": "2024-07-08T12:44:41.883Z",
+            "publishedAt": "2024-07-08T12:44:41.508Z"
+          }
+        },
+        {
+          "id": 2,
+          "attributes": {
+            "name": "Andor",
+            "email": "andor.pal@prismasolutions.ro",
+            "message": "Test",
+            "createdAt": "2024-07-08T12:57:11.321Z",
+            "updatedAt": "2024-07-08T12:57:11.321Z",
+            "publishedAt": "2024-07-08T12:57:11.320Z"
+          }
+        },
+        {
+          "id": 3,
+          "attributes": {
+            "name": "Andor",
+            "email": "andor.pal@prismasolutions.ro",
+            "message": "awdawdawdawd",
+            "createdAt": "2024-07-08T13:58:39.606Z",
+            "updatedAt": "2024-07-08T13:58:39.606Z",
+            "publishedAt": "2024-07-08T13:58:39.602Z"
+          }
+        },
+        {
+          "id": 4,
+          "attributes": {
+            "name": "test",
+            "email": "test@test.com",
+            "message": "test",
+            "createdAt": "2024-07-22T15:26:00.196Z",
+            "updatedAt": "2024-07-22T15:26:00.196Z",
+            "publishedAt": "2024-07-22T15:26:00.192Z"
+          }
+        }
+      ],
+      "meta": {
+        "pagination": {
+          "page": 1,
+          "pageSize": 25,
+          "pageCount": 1,
+          "total": 4
+        }
+      }
+    },
+    "paymany-contacts": {
+      "data": [
+        {
+          "id": 3,
+          "attributes": {
+            "firstName": "Juan Francisco",
+            "lastName": "García Flores",
+            "email": "ejemplo@ejemplo.mx",
+            "phone": "5553428400",
+            "country": "Mexico",
+            "county": "Distrito Federal",
+            "address": "C. Montes Urales 445",
+            "zipCode": 11000,
+            "message": "awd",
+            "amount": 0,
+            "createdAt": "2024-07-26T11:48:05.249Z",
+            "updatedAt": "2024-07-26T11:48:05.249Z",
+            "publishedAt": "2024-07-26T11:48:05.245Z"
+          }
+        }
+      ],
+      "meta": {
+        "pagination": {
+          "page": 1,
+          "pageSize": 25,
+          "pageCount": 1,
+          "total": 1
+        }
+      }
+    }
+  }
+}
